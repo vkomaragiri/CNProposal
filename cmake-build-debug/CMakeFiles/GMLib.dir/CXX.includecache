@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/HyperParameters.h
+MyTypes.h
+-
+
+../include/MyTypes.h
+
+/Users/vgogate/CLionProjects/CNProposal/src/HyperParameters.cpp
+HyperParameters.h
+-
+

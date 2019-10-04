@@ -1,0 +1,4 @@
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/GMLib.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/CNProposal.dir

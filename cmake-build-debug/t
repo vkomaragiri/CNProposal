@@ -1,0 +1,657 @@
+Data read
+0.0690709 0.252963 0.352711 0.0220516 0.303204 
+0.0540484 0.283265 0.27666 0.36366 0.0223673 
+0.568722 0.0281056 0.0661973 0.259246 0.0777292 
+0.367409 0.0145755 0.307434 0.225311 0.0852707 
+0.28602 0.0679923 0.119555 0.153618 0.372815 
+0.347036 0.168503 0.214396 0.1602 0.109865 
+0.215391 0.0579943 0.151402 0.351162 0.22405 
+0.294423 0.164315 0.0877363 0.288009 0.165516 
+0.0972615 0.14347 0.301642 0.243062 0.214564 
+0.182198 0.231184 0.249689 0.215993 0.120936 
+Starting EM
+LL at iter 0 = -6.75971
+LL at iter 1 = -6.75936
+LL at iter 2 = -6.75722
+LL at iter 3 = -6.74309
+LL at iter 4 = -6.66792
+LL at iter 5 = -6.48464
+LL at iter 6 = -6.34151
+LL at iter 7 = -6.26829
+LL at iter 8 = -6.21739
+LL at iter 9 = -6.18258
+LL at iter 10 = -6.11825
+LL at iter 11 = -6.10422
+LL at iter 12 = -6.09638
+LL at iter 13 = -6.09037
+LL at iter 14 = -6.08524
+LL at iter 15 = -6.08063
+LL at iter 16 = -6.07641
+LL at iter 17 = -6.07254
+LL at iter 18 = -6.06903
+LL at iter 19 = -6.06592
+LL at iter 20 = -6.06059
+LL at iter 21 = -6.05808
+LL at iter 22 = -6.05642
+LL at iter 23 = -6.05519
+LL at iter 24 = -6.05425
+LL at iter 25 = -6.0535
+LL at iter 26 = -6.05288
+LL at iter 27 = -6.05234
+LL at iter 28 = -6.05185
+LL at iter 29 = -6.05138
+LL at iter 30 = -6.03974
+LL at iter 31 = -6.0364
+LL at iter 32 = -6.03517
+LL at iter 33 = -6.03453
+LL at iter 34 = -6.03414
+LL at iter 35 = -6.0339
+LL at iter 36 = -6.03373
+LL at iter 37 = -6.03361
+LL at iter 38 = -6.03352
+LL at iter 39 = -6.03346
+LL at iter 40 = -6.03145
+LL at iter 41 = -6.0307
+LL at iter 42 = -6.03041
+LL at iter 43 = -6.03027
+LL at iter 44 = -6.03019
+LL at iter 45 = -6.03014
+LL at iter 46 = -6.0301
+LL at iter 47 = -6.03008
+LL at iter 48 = -6.03006
+LL at iter 49 = -6.03005
+Test set likelihood = -6.03821
+Upward pass
+Printing input function
+Variables: 15 
+Table: 0.903612 0.0963884 
+Printing distributions for 15
+0.903612 0.0963884 
+End: print sampling function
+Printing input function
+Variables: 12 15 
+Table: 0.824252 0.0108535 0.0793596 0.0855349 
+Printing distributions for 12
+0.912175 0.0878249 
+0.112601 0.887399 
+End: print sampling function
+Printing input function
+Variables: 12 14 
+Table: 0.814754 0.0203518 0.0101859 0.154709 
+Printing distributions for 14
+0.97563 0.0243703 
+0.0617725 0.938228 
+End: print sampling function
+Printing input function
+Variables: 13 14 
+Table: 0.77882 0.00873009 0.0461196 0.16633 
+Printing distributions for 13
+0.944093 0.0559066 
+0.049869 0.950131 
+End: print sampling function
+Printing input function
+Variables: 10 14 
+Table: 0.821449 0.00758574 0.00349018 0.167475 
+Printing distributions for 10
+0.995769 0.00423083 
+0.0433321 0.956668 
+End: print sampling function
+Printing input function
+Variables: 10 11 
+Table: 0.694838 0.134197 0.00163351 0.169331 
+Printing distributions for 11
+0.838129 0.161871 
+0.00955468 0.990445 
+End: print sampling function
+Printing input function
+Variables: 4 13 
+Table: 0.525675 0.0631295 0.261876 0.14932 
+Printing distributions for 4
+0.667481 0.332519 
+0.29715 0.70285 
+End: print sampling function
+Printing input function
+Variables: 3 4 
+Table: 0.288206 0.0847804 0.300598 0.326415 
+Printing distributions for 3
+0.489477 0.510523 
+0.20618 0.79382 
+End: print sampling function
+Printing input function
+Variables: 3 5 
+Table: 0.20266 0.170326 0.15395 0.473064 
+Printing distributions for 5
+0.543344 0.456656 
+0.245528 0.754472 
+End: print sampling function
+Printing input function
+Variables: 5 7 
+Table: 0.278827 0.077782 0.338758 0.304633 
+Printing distributions for 7
+0.781885 0.218115 
+0.52652 0.47348 
+End: print sampling function
+Printing input function
+Variables: 7 9 
+Table: 0.164302 0.453284 0.0297477 0.352667 
+Printing distributions for 9
+0.266039 0.733961 
+0.0777891 0.922211 
+End: print sampling function
+Printing input function
+Variables: 7 8 
+Table: 0.603954 0.0136317 0.274634 0.10778 
+Printing distributions for 8
+0.977927 0.0220726 
+0.718158 0.281842 
+End: print sampling function
+Printing input function
+Variables: 6 7 
+Table: 0.531863 0.211277 0.0857227 0.171138 
+Printing distributions for 6
+0.861197 0.138803 
+0.552481 0.447519 
+End: print sampling function
+Printing input function
+Variables: 2 6 
+Table: 0.559335 0.118216 0.183804 0.138645 
+Printing distributions for 2
+0.752665 0.247335 
+0.460232 0.539768 
+End: print sampling function
+Printing input function
+Variables: 1 2 
+Table: 0.564755 0.183066 0.112795 0.139383 
+Printing distributions for 1
+0.833525 0.166475 
+0.567737 0.432263 
+End: print sampling function
+Printing input function
+Variables: 0 2 
+Table: 0.616414 0.19358 0.061137 0.12887 
+Printing distributions for 0
+0.909768 0.0902323 
+0.600342 0.399658 
+End: print sampling function
+PE at component 0 is 1
+Upward pass
+Printing input function
+Variables: 15 
+Table: 0.591848 0.408152 
+Printing distributions for 15
+0.591848 0.408152 
+End: print sampling function
+Printing input function
+Variables: 12 15 
+Table: 0.185684 0.0402918 0.406164 0.367861 
+Printing distributions for 12
+0.313736 0.686264 
+0.0987175 0.901282 
+End: print sampling function
+Printing input function
+Variables: 12 14 
+Table: 0.119525 0.106451 0.114062 0.659962 
+Printing distributions for 14
+0.528928 0.471072 
+0.147362 0.852638 
+End: print sampling function
+Printing input function
+Variables: 13 14 
+Table: 0.126792 0.0354462 0.106795 0.730967 
+Printing distributions for 13
+0.542805 0.457195 
+0.0462495 0.953751 
+End: print sampling function
+Printing input function
+Variables: 11 14 
+Table: 0.0356747 0.0147384 0.197912 0.751674 
+Printing distributions for 11
+0.152726 0.847274 
+0.0192304 0.98077 
+End: print sampling function
+Printing input function
+Variables: 10 14 
+Table: 0.151001 0.150629 0.0825861 0.615784 
+Printing distributions for 10
+0.646444 0.353556 
+0.196537 0.803463 
+End: print sampling function
+Printing input function
+Variables: 8 12 
+Table: 0.0617967 0.0921048 0.164179 0.681919 
+Printing distributions for 8
+0.273466 0.726534 
+0.118995 0.881005 
+End: print sampling function
+Printing input function
+Variables: 6 8 
+Table: 0.0357352 0.0464606 0.118166 0.799638 
+Printing distributions for 6
+0.232195 0.767805 
+0.0549116 0.945088 
+End: print sampling function
+Printing input function
+Variables: 6 7 
+Table: 0.0234459 0.0587498 0.0217942 0.89601 
+Printing distributions for 7
+0.285245 0.714755 
+0.023746 0.976254 
+End: print sampling function
+Printing input function
+Variables: 7 9 
+Table: 0.000951902 0.0442882 0.00316498 0.951595 
+Printing distributions for 9
+0.0210411 0.978959 
+0.00331495 0.996685 
+End: print sampling function
+Printing input function
+Variables: 5 7 
+Table: 0.00511491 0.024461 0.0401252 0.930299 
+Printing distributions for 5
+0.113061 0.886939 
+0.0256201 0.97438 
+End: print sampling function
+Printing input function
+Variables: 4 13 
+Table: 0.0497604 0.0660346 0.112478 0.771727 
+Printing distributions for 4
+0.306712 0.693288 
+0.0788226 0.921177 
+End: print sampling function
+Printing input function
+Variables: 3 4 
+Table: 0.0643803 0.0766517 0.0514147 0.807553 
+Printing distributions for 3
+0.555985 0.444015 
+0.08669 0.91331 
+End: print sampling function
+Printing input function
+Variables: 2 6 
+Table: 0.0560097 0.315745 0.0261861 0.60206 
+Printing distributions for 2
+0.681418 0.318582 
+0.344022 0.655978 
+End: print sampling function
+Printing input function
+Variables: 0 2 
+Table: 0.289564 0.212452 0.0821903 0.415793 
+Printing distributions for 0
+0.778912 0.221088 
+0.338168 0.661832 
+End: print sampling function
+Printing input function
+Variables: 0 1 
+Table: 0.228116 0.273901 0.0945925 0.403391 
+Printing distributions for 1
+0.454399 0.545601 
+0.189951 0.810049 
+End: print sampling function
+PE at component 1 is 1
+Upward pass
+Printing input function
+Variables: 15 
+Table: 0.875063 0.124937 
+Printing distributions for 15
+0.875063 0.124937 
+End: print sampling function
+Printing input function
+Variables: 12 15 
+Table: 0.872064 0.00098342 0.00299805 0.123954 
+Printing distributions for 12
+0.996574 0.00342609 
+0.0078713 0.992129 
+End: print sampling function
+Printing input function
+Variables: 12 14 
+Table: 0.87088 0.00216788 0.000199426 0.126753 
+Printing distributions for 14
+0.997517 0.00248312 
+0.00157088 0.998429 
+End: print sampling function
+Printing input function
+Variables: 13 14 
+Table: 0.846576 0.000707472 0.0245034 0.128213 
+Printing distributions for 13
+0.97187 0.02813 
+0.00548766 0.994512 
+End: print sampling function
+Printing input function
+Variables: 10 14 
+Table: 0.868874 0.000691353 0.00220587 0.128229 
+Printing distributions for 10
+0.997468 0.00253234 
+0.00536263 0.994637 
+End: print sampling function
+Printing input function
+Variables: 10 11 
+Table: 0.839982 0.0295828 0.000300896 0.130134 
+Printing distributions for 11
+0.96598 0.0340202 
+0.00230686 0.997693 
+End: print sampling function
+Printing input function
+Variables: 8 12 
+Table: 0.870417 0.000694083 0.00263135 0.126258 
+Printing distributions for 8
+0.996986 0.00301399 
+0.00546728 0.994533 
+End: print sampling function
+Printing input function
+Variables: 6 8 
+Table: 0.868932 0.000182625 0.00217862 0.128707 
+Printing distributions for 6
+0.997499 0.00250097 
+0.00141691 0.998583 
+End: print sampling function
+Printing input function
+Variables: 6 7 
+Table: 0.866331 0.00278382 0.000189385 0.130696 
+Printing distributions for 7
+0.996797 0.00320305 
+0.00144695 0.998553 
+End: print sampling function
+Printing input function
+Variables: 7 9 
+Table: 0.722801 0.143719 0.00021834 0.133261 
+Printing distributions for 9
+0.834142 0.165858 
+0.00163576 0.998364 
+End: print sampling function
+Printing input function
+Variables: 5 7 
+Table: 0.862642 0.000696051 0.00387809 0.132784 
+Printing distributions for 5
+0.995525 0.00447547 
+0.00521465 0.994785 
+End: print sampling function
+Printing input function
+Variables: 4 13 
+Table: 0.799597 0.00490379 0.0476869 0.147813 
+Printing distributions for 4
+0.943718 0.0562821 
+0.0321104 0.96789 
+End: print sampling function
+Printing input function
+Variables: 3 5 
+Table: 0.835435 0.0107966 0.0279029 0.125865 
+Printing distributions for 3
+0.96768 0.0323198 
+0.0790023 0.920998 
+End: print sampling function
+Printing input function
+Variables: 2 6 
+Table: 0.867807 0.00831206 0.00130789 0.122573 
+Printing distributions for 2
+0.998495 0.00150485 
+0.0635064 0.936494 
+End: print sampling function
+Printing input function
+Variables: 1 6 
+Table: 0.858072 0.00540153 0.0110426 0.125484 
+Printing distributions for 1
+0.987294 0.0127056 
+0.0412691 0.958731 
+End: print sampling function
+Printing input function
+Variables: 0 2 
+Table: 0.8583 0.0216415 0.0178192 0.10224 
+Printing distributions for 0
+0.979661 0.0203388 
+0.174696 0.825304 
+End: print sampling function
+PE at component 2 is 1
+Upward pass
+Printing input function
+Variables: 15 
+Table: 0.993963 0.00603686 
+Printing distributions for 15
+0.993963 0.00603686 
+End: print sampling function
+Printing input function
+Variables: 8 15 
+Table: 0.975453 0.00524451 0.0185106 0.00079235 
+Printing distributions for 8
+0.981377 0.018623 
+0.868748 0.131252 
+End: print sampling function
+Printing input function
+Variables: 8 9 
+Table: 0.332433 0.648264 0.000197707 0.0191052 
+Printing distributions for 9
+0.338977 0.661023 
+0.0102423 0.989758 
+End: print sampling function
+Printing input function
+Variables: 7 9 
+Table: 0.322644 0.590559 0.00998691 0.0768103 
+Printing distributions for 7
+0.969976 0.030024 
+0.884906 0.115094 
+End: print sampling function
+Printing input function
+Variables: 6 7 
+Table: 0.90847 0.0811381 0.00473288 0.00565909 
+Printing distributions for 6
+0.994817 0.00518273 
+0.934801 0.065199 
+End: print sampling function
+Printing input function
+Variables: 1 6 
+Table: 0.933854 0.00643275 0.0557539 0.00395922 
+Printing distributions for 1
+0.943661 0.0563394 
+0.619012 0.380988 
+End: print sampling function
+Printing input function
+Variables: 1 4 
+Table: 0.371399 0.568888 0.0339941 0.0257191 
+Printing distributions for 4
+0.394985 0.605015 
+0.569289 0.430711 
+End: print sampling function
+Printing input function
+Variables: 4 13 
+Table: 0.376732 0.0286605 0.276478 0.318129 
+Printing distributions for 13
+0.929302 0.0706981 
+0.464976 0.535024 
+End: print sampling function
+Printing input function
+Variables: 13 14 
+Table: 0.618049 0.0351612 0.236372 0.110417 
+Printing distributions for 14
+0.946172 0.0538283 
+0.681602 0.318398 
+End: print sampling function
+Printing input function
+Variables: 2 4 
+Table: 0.360626 0.562376 0.0447673 0.0322315 
+Printing distributions for 2
+0.889571 0.110429 
+0.945794 0.0542064 
+End: print sampling function
+Printing input function
+Variables: 2 5 
+Table: 0.701348 0.221653 0.0281141 0.0488847 
+Printing distributions for 5
+0.759856 0.240144 
+0.365124 0.634876 
+End: print sampling function
+Printing input function
+Variables: 3 5 
+Table: 0.53208 0.0900101 0.197382 0.180528 
+Printing distributions for 3
+0.729414 0.270586 
+0.332708 0.667292 
+End: print sampling function
+Printing input function
+Variables: 3 12 
+Table: 0.575881 0.046209 0.366322 0.0115887 
+Printing distributions for 12
+0.92572 0.0742803 
+0.969335 0.0306652 
+End: print sampling function
+Printing input function
+Variables: 10 13 
+Table: 0.581769 0.276925 0.0714412 0.0698648 
+Printing distributions for 10
+0.890631 0.109369 
+0.798538 0.201462 
+End: print sampling function
+Printing input function
+Variables: 10 11 
+Table: 0.576373 0.282321 0.0616517 0.0796543 
+Printing distributions for 11
+0.671221 0.328779 
+0.436299 0.563701 
+End: print sampling function
+Printing input function
+Variables: 0 1 
+Table: 0.925669 0.0538831 0.0146183 0.00583003 
+Printing distributions for 0
+0.984453 0.0155467 
+0.902366 0.0976339 
+End: print sampling function
+PE at component 3 is 1
+Upward pass
+Printing input function
+Variables: 15 
+Table: 0.986216 0.0137841 
+Printing distributions for 15
+0.986216 0.0137841 
+End: print sampling function
+Printing input function
+Variables: 10 15 
+Table: 0.678716 0.0048128 0.3075 0.00897126 
+Printing distributions for 10
+0.688202 0.311798 
+0.349157 0.650843 
+End: print sampling function
+Printing input function
+Variables: 10 13 
+Table: 0.270353 0.413175 0.0520853 0.264386 
+Printing distributions for 13
+0.395526 0.604474 
+0.164581 0.835419 
+End: print sampling function
+Printing input function
+Variables: 13 14 
+Table: 0.286987 0.0354516 0.315072 0.362489 
+Printing distributions for 14
+0.890052 0.109948 
+0.465009 0.534991 
+End: print sampling function
+Printing input function
+Variables: 10 12 
+Table: 0.593936 0.0895931 0.227507 0.0889641 
+Printing distributions for 12
+0.868926 0.131074 
+0.718887 0.281113 
+End: print sampling function
+Printing input function
+Variables: 10 11 
+Table: 0.248966 0.434563 0.0497972 0.266674 
+Printing distributions for 11
+0.364236 0.635764 
+0.157351 0.842649 
+End: print sampling function
+Printing input function
+Variables: 1 12 
+Table: 0.686547 0.121896 0.134896 0.0566607 
+Printing distributions for 1
+0.835782 0.164218 
+0.682675 0.317325 
+End: print sampling function
+Printing input function
+Variables: 1 6 
+Table: 0.572846 0.235597 0.0796552 0.111902 
+Printing distributions for 6
+0.708579 0.291421 
+0.41583 0.58417 
+End: print sampling function
+Printing input function
+Variables: 6 8 
+Table: 0.575477 0.0770244 0.169729 0.17777 
+Printing distributions for 8
+0.881955 0.118045 
+0.48843 0.51157 
+End: print sampling function
+Printing input function
+Variables: 8 9 
+Table: 0.0219435 0.723262 0.000838405 0.253956 
+Printing distributions for 9
+0.0294462 0.970554 
+0.00329051 0.996709 
+End: print sampling function
+Printing input function
+Variables: 7 8 
+Table: 0.345343 0.023465 0.399862 0.23133 
+Printing distributions for 7
+0.46342 0.53658 
+0.0920937 0.907906 
+End: print sampling function
+Printing input function
+Variables: 5 6 
+Table: 0.107321 0.0242435 0.54518 0.323255 
+Printing distributions for 5
+0.164476 0.835524 
+0.0697658 0.930234 
+End: print sampling function
+Printing input function
+Variables: 4 13 
+Table: 0.0800809 0.0137517 0.242358 0.66381 
+Printing distributions for 4
+0.24836 0.75164 
+0.0202959 0.979704 
+End: print sampling function
+Printing input function
+Variables: 3 5 
+Table: 0.0413143 0.136832 0.09025 0.731603 
+Printing distributions for 3
+0.314023 0.685977 
+0.157562 0.842438 
+End: print sampling function
+Printing input function
+Variables: 1 2 
+Table: 0.642774 0.165669 0.0881578 0.103399 
+Printing distributions for 2
+0.795076 0.204924 
+0.460217 0.539783 
+End: print sampling function
+Printing input function
+Variables: 0 2 
+Table: 0.697485 0.216604 0.0334464 0.0524642 
+Printing distributions for 0
+0.954241 0.0457585 
+0.805015 0.194985 
+End: print sampling function
+PE at component 4 is 1
+1
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+1
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Upward pass
+Error between two = 5.01444e-19
+ N = 1000 Err =6.8181
+ N = 101000 Err =1.76859
+ N = 201000 Err =1.438
+ N = 301000 Err =1.85331
+ N = 401000 Err =1.58568
+ N = 501000 Err =1.72469
+ N = 601000 Err =1.76918
+ N = 701000 Err =1.71767
+ N = 801000 Err =1.82609
+ N = 901000 Err =1.82143
+ N = 1001000 Err =1.86565
