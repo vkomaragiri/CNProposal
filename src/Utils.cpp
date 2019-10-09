@@ -6,12 +6,14 @@
 #include <random>
 #include <algorithm>
 #include <set>
+#include <list>
+#include <cfloat>
 #include <Utils.h>
+#include <myRandom.h>
 
 using namespace std;
 
-std::random_device rd;
-ranlux48 Utils::rand_generator(rd());
+
 
 int Utils::getDomainSize(vector<Variable *> &variables) {
     int all_d = 1;
@@ -239,5 +241,161 @@ void Utils::getTopologicalOrder(vector<Variable *> &variables, vector<Function> 
         cerr<<"Something wrong while computing topological order\n";
         cerr<<"Seems that the Bayes net is not a DAG\n";
         exit(-1);
+    }
+}
+
+void Utils::getMinFillOrder(vector<Variable *> &variables, vector<Function> &functions, vector<int> &order) {
+    double estimate = 0.0;
+    int max_cluster_size = 0;
+    order = vector<int>(variables.size());
+    vector<set<int> >clusters(variables.size());
+    vector<vector<bool> > adj_matrix(variables.size());
+
+    // Create the interaction graph of the functions in this graphical model - i.e.
+    // create a graph structure such that an edge is drawn between variables in the
+    // model that appear in the same function
+    for (int i = 0; i < variables.size(); i++) {
+        adj_matrix[i] = vector<bool>(variables.size());
+    }
+    vector<set<int> > graph(variables.size());
+    vector<bool> processed(variables.size());
+    for (auto & function : functions) {
+        for (int j = 0; j < function.variables.size(); j++) {
+            if (function.variables[j]->isEvidence()) continue;
+            for (int k = j + 1; k < function.variables.size(); k++) {
+                if (function.variables[k]->isEvidence()) continue;
+                int a = function.variables[j]->id;
+                int b = function.variables[k]->id;
+                graph[a].insert(b);
+                graph[b].insert(a);
+                adj_matrix[a][b] = true;
+                adj_matrix[b][a] = true;
+            }
+        }
+    }
+    list<int> zero_list;
+
+    // For i = 1 to number of variables in the model
+    // 1) Identify the variables that if deleted would add the fewest number of edges to the
+    //    interaction graph
+    // 2) Choose a variable, pi(i), from among this set
+    // 3) Add an edge between every pair of non-adjacent neighbors of pi(i)
+    // 4) Delete pi(i) from the interaction graph
+    for (int i = 0; i < variables.size(); i++) {
+        // Find variables with the minimum number of edges added
+        double min = DBL_MAX;
+        int min_id = -1;
+        bool first = true;
+
+        // Flag indicating whether the variable to be removed is from the
+        // zero list - i.e. adds no edges to interaction graph when deleted
+        bool fromZeroList = false;
+
+        // Vector to keep track of the ID of each minimum fill variable
+        vector<int> minFillIDs;
+
+        // If there are no variables that, when deleted, add no edges...
+        if (zero_list.empty()) {
+
+            // For each unprocessed (non-deleted) variable
+            for (int j = 0; j < variables.size(); j++) {
+                if (processed[j])
+                    continue;
+                double curr_min = 0.0;
+                for (auto a = graph[j].begin();
+                     a != graph[j].end(); a++) {
+                    auto b = a;
+                    b++;
+                    for (; b != graph[j].end(); b++) {
+                        if (!adj_matrix[*a][*b]) {
+                            curr_min += (variables[*a]->d
+                                         * variables[*b]->d);
+                            if (curr_min > min)
+                                break;
+                        }
+                    }
+                    if (curr_min > min)
+                        break;
+                }
+
+                // Store the first non-deleted variable as a potential minimum
+                if (first) {
+                    minFillIDs.push_back(j);
+                    min = curr_min;
+                    first = false;
+                } else {
+                    // If this is a new minimum...
+                    if (min > curr_min) {
+                        min = curr_min;
+                        minFillIDs.clear();
+                        minFillIDs.push_back(j);
+                    }
+                        // Otherwise, if the number of edges removed is also a minimum, but
+                        // the minimum is zero
+                    else if (curr_min < DBL_MIN) {
+                        zero_list.push_back(j);
+                    }
+                        // Else if this is another potential min_fill
+                    else if (min == curr_min) {
+                        minFillIDs.push_back(j);
+                    }
+                }
+            }
+        }
+            // Else...delete variables from graph that don't add any edges
+        else {
+            min_id = zero_list.front();
+            zero_list.pop_front();
+            fromZeroList = true;
+        }
+
+        // If not from zero_list, choose one of the variables at random
+        // from the set of min fill variables
+        if (!fromZeroList) {
+            int indexInVector;
+            indexInVector = myRandom::getInt(minFillIDs.size());
+            min_id = minFillIDs[indexInVector];
+        }
+
+        //cout<<"order["<<i<<"]= "<<min_id<<" "<<flush;
+        assert(min_id!=-1);
+        order[i] = min_id;
+        // Now form the cluster
+        clusters[i] = graph[min_id];
+        clusters[i].insert(min_id);
+
+        // Trinagulate min id and remove it from the graph
+        for (auto a = graph[min_id].begin();
+             a != graph[min_id].end(); a++) {
+            auto b = a;
+            b++;
+            for (; b != graph[min_id].end(); b++) {
+                if (!adj_matrix[*a][*b]) {
+                    adj_matrix[*a][*b] = true;
+                    adj_matrix[*b][*a] = true;
+                    graph[*a].insert(*b);
+                    graph[*b].insert(*a);
+                }
+            }
+        }
+        for (auto a = graph[min_id].begin();
+             a != graph[min_id].end(); a++) {
+            graph[*a].erase(min_id);
+            adj_matrix[*a][min_id] = false;
+            adj_matrix[min_id][*a] = false;
+        }
+        graph[min_id].clear();
+        processed[min_id] = true;
+    }
+
+    // compute the estimate
+    for (auto & cluster : clusters) {
+        if ((int) cluster.size() > max_cluster_size)
+            max_cluster_size = (int) cluster.size();
+        double curr_estimate = 1.0;
+        for (std::__1::__tree_const_iterator<int, std::__1::__tree_node<int, void *> *, long>::value_type j : cluster) {
+            curr_estimate *= (double) variables[j]->d;
+        }
+        estimate += curr_estimate;
     }
 }

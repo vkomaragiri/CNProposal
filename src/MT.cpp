@@ -85,7 +85,7 @@ void MT::learn(Data &data) {
     vector<vector<ldouble> > weights(ncomponents, vector<ldouble>(data.nexamples));
     for (int i = 0; i < ncomponents; i++) {
         for (int j = 0; j < data.nexamples; j++) {
-            weights[i][j] = dist_real(Utils::rand_generator);
+            weights[i][j] = dist_real(myRandom::m_g);
         }
     }
     Utils::normalizeDim2(weights);

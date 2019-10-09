@@ -5,35 +5,37 @@
 #ifndef CNPROPOSAL_MYRANDOM_H
 #define CNPROPOSAL_MYRANDOM_H
 
-
-
-#include <cstdlib>
+#include <MyTypes.h>
+#include <random>
+#include <chrono>
 using namespace std;
 struct myRandom {
-    unsigned long int seed;
+    static unsigned long int seed;
+    static mt19937 m_g;
+    static uniform_int_distribution<int> int_dist;
+    static uniform_real_distribution<double> double_dist;
     // choose one of the random number generators:
 
     myRandom() {
-
-        seed=1000L;
-        srand(seed);
+        seed=std::chrono::system_clock::now().time_since_epoch().count();
+        m_g.seed(seed);
     }
-    void setSeed(int seed_)
+    static void setSeed(unsigned long int seed_)
     {
-        //seed=time(NULL);
         seed=seed_;
-        srand(seed);
+        m_g.seed(seed);
     }
-    double getDouble() {
-        return (double)rand()/((double)2147483648UL);
+    static double getDouble() {
+        return double_dist(m_g);
     }
-    int getInt()
+    static int getInt()
     {
-        return rand();
+        return int_dist(m_g);
     }
-    int getInt(int max_value) {
-        return rand()%max_value;
+    static int getInt(int max_value) {
+        return int_dist(m_g)%max_value;
     }
 };
+
 
 #endif //CNPROPOSAL_MYRANDOM_H

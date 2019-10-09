@@ -33,7 +33,7 @@ struct MTSampler{
 
         vector<int> mixcount(samplers.size(),0);
         for(int i=0;i<n;i++) {
-            int c = mixture_distribution(Utils::rand_generator);
+            int c = mixture_distribution(myRandom::m_g);
             mixcount[c]++;
         }
         cout<<"Mixture probs\n";
@@ -61,7 +61,7 @@ struct MTSampler{
         mixture_assignments=vector<int>();
         vector<int> mixcount(samplers.size(),0);
         for(int i=0;i<n;i++) {
-            int c = mixture_distribution(Utils::rand_generator);
+            int c = mixture_distribution(myRandom::m_g);
             mixcount[c]++;
         }
         cout<<"Mixture probs\n";

@@ -33,7 +33,7 @@ void MT_BTP::getPosteriorDist(MT &other_mt) {
         btps[i].getPosteriorDist(other_mt.tree_gms[i]);
         other_mt.probabilities[i] = mt->probabilities[i] * btps[i].getPE();
     }
-    Utils::normalize1d(mt->probabilities);
+    Utils::normalize1d(other_mt.probabilities);
 }
 
 void MT_BTP::getPosteriorSampler(MTSampler &mtSampler) {

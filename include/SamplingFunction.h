@@ -14,7 +14,6 @@ using namespace std;
 #include <Variable.h>
 #include <Function.h>
 #include <Utils.h>
-
 #include <myRandom.h>
 
 struct SamplingFunction{
@@ -77,7 +76,7 @@ struct SamplingFunction{
         if(value>=variable->d) value=variable->d-1;
         */
         int address=Utils::getAddress(other_variables);
-        int value= distributions[address](Utils::rand_generator);
+        int value= distributions[address](myRandom::m_g);
         variable->t_value=value;
         return  distributions[address].probabilities()[value];
     }

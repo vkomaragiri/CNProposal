@@ -15,3 +15,4 @@ int HyperParameters::num_components = 10;
 int HyperParameters::num_iterations_em = 106;
 int HyperParameters::interval_for_structure_learning=10;
 ldouble HyperParameters::mi_low_limit=1e-5;
+int HyperParameters::num_samples=10000;

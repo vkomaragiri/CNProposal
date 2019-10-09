@@ -28,7 +28,7 @@ struct Utils{
     static ldouble multiplyAndMarginalize(vector<Function*>& functions, vector<Variable*>& marg_variables, Function& function,bool normalize=true);
     static ldouble normalizeAndGetNormConst(Function& function);
     static void functionToCPT(Function& function, Variable* marg_variable);
-    static std::ranlux48 rand_generator;
+
 
     template <class T>
     static void normalize1d(vector<T>&v){
@@ -102,6 +102,7 @@ struct Utils{
     }
     static void getMinDegreeOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
     static void getTopologicalOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
+    static void getMinFillOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
     static ldouble computeAbsError(vector<vector<ldouble> >& v1, vector<vector<ldouble> >& v2)
     {
         if(v1.size()==v2.size()){
