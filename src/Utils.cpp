@@ -10,6 +10,7 @@
 #include <cfloat>
 #include <Utils.h>
 #include <myRandom.h>
+#include <HyperParameters.h>
 
 using namespace std;
 
@@ -290,7 +291,6 @@ void Utils::getMinFillOrder(vector<Variable *> &variables, vector<Function> &fun
         // Flag indicating whether the variable to be removed is from the
         // zero list - i.e. adds no edges to interaction graph when deleted
         bool fromZeroList = false;
-
         // Vector to keep track of the ID of each minimum fill variable
         vector<int> minFillIDs;
 
@@ -397,5 +397,22 @@ void Utils::getMinFillOrder(vector<Variable *> &variables, vector<Function> &fun
             curr_estimate *= (double) variables[j]->d;
         }
         estimate += curr_estimate;
+    }
+    cout<<"Max cluster size = "<<max_cluster_size<<endl;
+}
+
+void Utils::getOrder(vector<Variable *> &variables, vector<Function> &functions, vector<int> &order)
+{
+    if (HyperParameters::ord_heu==min_fill){
+        Utils::getMinFillOrder(variables,functions,order);
+    } else{
+        if (HyperParameters::ord_heu==min_degree){
+            Utils::getMinDegreeOrder(variables,functions,order);
+        }
+        else {
+            if(HyperParameters::ord_heu==topological){
+                Utils::getTopologicalOrder(variables,functions,order);
+            }
+        }
     }
 }

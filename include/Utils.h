@@ -9,6 +9,8 @@
 #include <iostream>
 #include <random>
 #include <cmath>
+#include <iomanip>
+#include <fstream>
 using namespace std;
 
 #include <MyTypes.h>
@@ -100,6 +102,7 @@ struct Utils{
             stats[examples[i][x->id]]+=weights[i];
         }
     }
+    static void getOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
     static void getMinDegreeOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
     static void getTopologicalOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
     static void getMinFillOrder(vector<Variable*>& variables, vector<Function>& functions, vector<int>& order);
@@ -145,6 +148,18 @@ struct Utils{
         }
         return INVALID_VALUE;
     }
-
+    static void printMarginals(vector<vector<ldouble> >& var_marginals, const string& outfilename)
+    {
+        ofstream out(outfilename);
+        out<<"MAR\n";
+        out<<var_marginals.size();
+        for(int i=0;i<var_marginals.size();i++){
+            out<<" "<<var_marginals[i].size();
+            for(int j=0;j<var_marginals[i].size();j++)
+                out<<" "<<var_marginals[i][j];
+        }
+        out<<"\n";
+        out.close();
+    }
 };
 #endif //CNPROPOSAL_UTILS_H

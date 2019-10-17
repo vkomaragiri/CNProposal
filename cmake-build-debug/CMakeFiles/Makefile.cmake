@@ -59,5 +59,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GMLib.dir/DependInfo.cmake"
-  "CMakeFiles/CNProposal.dir/DependInfo.cmake"
+  "CMakeFiles/sampleInf.dir/DependInfo.cmake"
+  "CMakeFiles/learnMT.dir/DependInfo.cmake"
+  "CMakeFiles/exactInf.dir/DependInfo.cmake"
+  "CMakeFiles/sampleMT.dir/DependInfo.cmake"
   )

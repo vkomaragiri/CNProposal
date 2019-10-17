@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/vgogate/CLionProjects/CNProposal/cmake-build-release
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,17 +124,56 @@ GMLib/fast:
 .PHONY : GMLib/fast
 
 #=============================================================================
-# Target rules for targets named CNProposal
+# Target rules for targets named sampleInf
 
 # Build rule for target.
-CNProposal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CNProposal
-.PHONY : CNProposal
+sampleInf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sampleInf
+.PHONY : sampleInf
 
 # fast build rule for target.
-CNProposal/fast:
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/build
-.PHONY : CNProposal/fast
+sampleInf/fast:
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/build
+.PHONY : sampleInf/fast
+
+#=============================================================================
+# Target rules for targets named learnMT
+
+# Build rule for target.
+learnMT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learnMT
+.PHONY : learnMT
+
+# fast build rule for target.
+learnMT/fast:
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/build
+.PHONY : learnMT/fast
+
+#=============================================================================
+# Target rules for targets named exactInf
+
+# Build rule for target.
+exactInf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exactInf
+.PHONY : exactInf
+
+# fast build rule for target.
+exactInf/fast:
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/build
+.PHONY : exactInf/fast
+
+#=============================================================================
+# Target rules for targets named sampleMT
+
+# Build rule for target.
+sampleMT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sampleMT
+.PHONY : sampleMT
+
+# fast build rule for target.
+sampleMT/fast:
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/build
+.PHONY : sampleMT/fast
 
 src/BTP.o: src/BTP.cpp.o
 
@@ -143,7 +182,10 @@ src/BTP.o: src/BTP.cpp.o
 # target to build an object file
 src/BTP.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/BTP.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/BTP.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/BTP.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/BTP.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/BTP.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/BTP.cpp.o
 .PHONY : src/BTP.cpp.o
 
 src/BTP.i: src/BTP.cpp.i
@@ -153,7 +195,10 @@ src/BTP.i: src/BTP.cpp.i
 # target to preprocess a source file
 src/BTP.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/BTP.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/BTP.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/BTP.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/BTP.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/BTP.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/BTP.cpp.i
 .PHONY : src/BTP.cpp.i
 
 src/BTP.s: src/BTP.cpp.s
@@ -163,7 +208,10 @@ src/BTP.s: src/BTP.cpp.s
 # target to generate assembly for a file
 src/BTP.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/BTP.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/BTP.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/BTP.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/BTP.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/BTP.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/BTP.cpp.s
 .PHONY : src/BTP.cpp.s
 
 src/Data.o: src/Data.cpp.o
@@ -173,7 +221,10 @@ src/Data.o: src/Data.cpp.o
 # target to build an object file
 src/Data.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Data.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Data.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Data.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Data.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Data.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Data.cpp.o
 .PHONY : src/Data.cpp.o
 
 src/Data.i: src/Data.cpp.i
@@ -183,7 +234,10 @@ src/Data.i: src/Data.cpp.i
 # target to preprocess a source file
 src/Data.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Data.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Data.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Data.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Data.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Data.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Data.cpp.i
 .PHONY : src/Data.cpp.i
 
 src/Data.s: src/Data.cpp.s
@@ -193,7 +247,10 @@ src/Data.s: src/Data.cpp.s
 # target to generate assembly for a file
 src/Data.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Data.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Data.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Data.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Data.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Data.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Data.cpp.s
 .PHONY : src/Data.cpp.s
 
 src/Function.o: src/Function.cpp.o
@@ -203,7 +260,10 @@ src/Function.o: src/Function.cpp.o
 # target to build an object file
 src/Function.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Function.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Function.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Function.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Function.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Function.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Function.cpp.o
 .PHONY : src/Function.cpp.o
 
 src/Function.i: src/Function.cpp.i
@@ -213,7 +273,10 @@ src/Function.i: src/Function.cpp.i
 # target to preprocess a source file
 src/Function.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Function.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Function.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Function.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Function.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Function.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Function.cpp.i
 .PHONY : src/Function.cpp.i
 
 src/Function.s: src/Function.cpp.s
@@ -223,7 +286,10 @@ src/Function.s: src/Function.cpp.s
 # target to generate assembly for a file
 src/Function.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Function.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Function.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Function.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Function.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Function.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Function.cpp.s
 .PHONY : src/Function.cpp.s
 
 src/GM.o: src/GM.cpp.o
@@ -233,7 +299,10 @@ src/GM.o: src/GM.cpp.o
 # target to build an object file
 src/GM.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/GM.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/GM.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/GM.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/GM.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/GM.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/GM.cpp.o
 .PHONY : src/GM.cpp.o
 
 src/GM.i: src/GM.cpp.i
@@ -243,7 +312,10 @@ src/GM.i: src/GM.cpp.i
 # target to preprocess a source file
 src/GM.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/GM.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/GM.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/GM.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/GM.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/GM.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/GM.cpp.i
 .PHONY : src/GM.cpp.i
 
 src/GM.s: src/GM.cpp.s
@@ -253,7 +325,10 @@ src/GM.s: src/GM.cpp.s
 # target to generate assembly for a file
 src/GM.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/GM.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/GM.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/GM.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/GM.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/GM.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/GM.cpp.s
 .PHONY : src/GM.cpp.s
 
 src/HyperParameters.o: src/HyperParameters.cpp.o
@@ -263,7 +338,10 @@ src/HyperParameters.o: src/HyperParameters.cpp.o
 # target to build an object file
 src/HyperParameters.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/HyperParameters.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/HyperParameters.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/HyperParameters.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/HyperParameters.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/HyperParameters.cpp.o
 .PHONY : src/HyperParameters.cpp.o
 
 src/HyperParameters.i: src/HyperParameters.cpp.i
@@ -273,7 +351,10 @@ src/HyperParameters.i: src/HyperParameters.cpp.i
 # target to preprocess a source file
 src/HyperParameters.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/HyperParameters.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/HyperParameters.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/HyperParameters.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/HyperParameters.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/HyperParameters.cpp.i
 .PHONY : src/HyperParameters.cpp.i
 
 src/HyperParameters.s: src/HyperParameters.cpp.s
@@ -283,7 +364,10 @@ src/HyperParameters.s: src/HyperParameters.cpp.s
 # target to generate assembly for a file
 src/HyperParameters.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/HyperParameters.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/HyperParameters.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/HyperParameters.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/HyperParameters.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/HyperParameters.cpp.s
 .PHONY : src/HyperParameters.cpp.s
 
 src/MI.o: src/MI.cpp.o
@@ -293,7 +377,10 @@ src/MI.o: src/MI.cpp.o
 # target to build an object file
 src/MI.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MI.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MI.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MI.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MI.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MI.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MI.cpp.o
 .PHONY : src/MI.cpp.o
 
 src/MI.i: src/MI.cpp.i
@@ -303,7 +390,10 @@ src/MI.i: src/MI.cpp.i
 # target to preprocess a source file
 src/MI.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MI.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MI.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MI.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MI.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MI.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MI.cpp.i
 .PHONY : src/MI.cpp.i
 
 src/MI.s: src/MI.cpp.s
@@ -313,7 +403,10 @@ src/MI.s: src/MI.cpp.s
 # target to generate assembly for a file
 src/MI.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MI.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MI.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MI.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MI.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MI.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MI.cpp.s
 .PHONY : src/MI.cpp.s
 
 src/MT.o: src/MT.cpp.o
@@ -323,7 +416,10 @@ src/MT.o: src/MT.cpp.o
 # target to build an object file
 src/MT.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MT.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MT.cpp.o
 .PHONY : src/MT.cpp.o
 
 src/MT.i: src/MT.cpp.i
@@ -333,7 +429,10 @@ src/MT.i: src/MT.cpp.i
 # target to preprocess a source file
 src/MT.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MT.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MT.cpp.i
 .PHONY : src/MT.cpp.i
 
 src/MT.s: src/MT.cpp.s
@@ -343,7 +442,10 @@ src/MT.s: src/MT.cpp.s
 # target to generate assembly for a file
 src/MT.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MT.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MT.cpp.s
 .PHONY : src/MT.cpp.s
 
 src/MT_BTP.o: src/MT_BTP.cpp.o
@@ -353,7 +455,10 @@ src/MT_BTP.o: src/MT_BTP.cpp.o
 # target to build an object file
 src/MT_BTP.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MT_BTP.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT_BTP.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT_BTP.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT_BTP.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MT_BTP.cpp.o
 .PHONY : src/MT_BTP.cpp.o
 
 src/MT_BTP.i: src/MT_BTP.cpp.i
@@ -363,7 +468,10 @@ src/MT_BTP.i: src/MT_BTP.cpp.i
 # target to preprocess a source file
 src/MT_BTP.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MT_BTP.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT_BTP.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT_BTP.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT_BTP.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MT_BTP.cpp.i
 .PHONY : src/MT_BTP.cpp.i
 
 src/MT_BTP.s: src/MT_BTP.cpp.s
@@ -373,7 +481,10 @@ src/MT_BTP.s: src/MT_BTP.cpp.s
 # target to generate assembly for a file
 src/MT_BTP.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/MT_BTP.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT_BTP.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT_BTP.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT_BTP.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/MT_BTP.cpp.s
 .PHONY : src/MT_BTP.cpp.s
 
 src/PythonInterface.o: src/PythonInterface.cpp.o
@@ -410,7 +521,10 @@ src/Utils.o: src/Utils.cpp.o
 # target to build an object file
 src/Utils.cpp.o:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Utils.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Utils.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Utils.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Utils.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Utils.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Utils.cpp.o
 .PHONY : src/Utils.cpp.o
 
 src/Utils.i: src/Utils.cpp.i
@@ -420,7 +534,10 @@ src/Utils.i: src/Utils.cpp.i
 # target to preprocess a source file
 src/Utils.cpp.i:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Utils.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Utils.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Utils.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Utils.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Utils.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Utils.cpp.i
 .PHONY : src/Utils.cpp.i
 
 src/Utils.s: src/Utils.cpp.s
@@ -430,38 +547,158 @@ src/Utils.s: src/Utils.cpp.s
 # target to generate assembly for a file
 src/Utils.cpp.s:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Utils.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/Utils.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Utils.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Utils.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Utils.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/Utils.cpp.s
 .PHONY : src/Utils.cpp.s
 
-src/main.o: src/main.cpp.o
+src/myRandom.o: src/myRandom.cpp.o
 
-.PHONY : src/main.o
+.PHONY : src/myRandom.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/main.cpp.o
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/myRandom.cpp.o:
+	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/myRandom.cpp.o
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/myRandom.cpp.o
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/myRandom.cpp.o
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/myRandom.cpp.o
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/myRandom.cpp.o
+.PHONY : src/myRandom.cpp.o
 
-src/main.i: src/main.cpp.i
+src/myRandom.i: src/myRandom.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/myRandom.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/main.cpp.i
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/myRandom.cpp.i:
+	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/myRandom.cpp.i
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/myRandom.cpp.i
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/myRandom.cpp.i
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/myRandom.cpp.i
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/myRandom.cpp.i
+.PHONY : src/myRandom.cpp.i
 
-src/main.s: src/main.cpp.s
+src/myRandom.s: src/myRandom.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/myRandom.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/main.cpp.s
-	$(MAKE) -f CMakeFiles/CNProposal.dir/build.make CMakeFiles/CNProposal.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/myRandom.cpp.s:
+	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/myRandom.cpp.s
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/myRandom.cpp.s
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/myRandom.cpp.s
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/myRandom.cpp.s
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/src/myRandom.cpp.s
+.PHONY : src/myRandom.cpp.s
+
+target_src/main_exact_inf.o: target_src/main_exact_inf.cpp.o
+
+.PHONY : target_src/main_exact_inf.o
+
+# target to build an object file
+target_src/main_exact_inf.cpp.o:
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/target_src/main_exact_inf.cpp.o
+.PHONY : target_src/main_exact_inf.cpp.o
+
+target_src/main_exact_inf.i: target_src/main_exact_inf.cpp.i
+
+.PHONY : target_src/main_exact_inf.i
+
+# target to preprocess a source file
+target_src/main_exact_inf.cpp.i:
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/target_src/main_exact_inf.cpp.i
+.PHONY : target_src/main_exact_inf.cpp.i
+
+target_src/main_exact_inf.s: target_src/main_exact_inf.cpp.s
+
+.PHONY : target_src/main_exact_inf.s
+
+# target to generate assembly for a file
+target_src/main_exact_inf.cpp.s:
+	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/target_src/main_exact_inf.cpp.s
+.PHONY : target_src/main_exact_inf.cpp.s
+
+target_src/main_learn_mt.o: target_src/main_learn_mt.cpp.o
+
+.PHONY : target_src/main_learn_mt.o
+
+# target to build an object file
+target_src/main_learn_mt.cpp.o:
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/target_src/main_learn_mt.cpp.o
+.PHONY : target_src/main_learn_mt.cpp.o
+
+target_src/main_learn_mt.i: target_src/main_learn_mt.cpp.i
+
+.PHONY : target_src/main_learn_mt.i
+
+# target to preprocess a source file
+target_src/main_learn_mt.cpp.i:
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/target_src/main_learn_mt.cpp.i
+.PHONY : target_src/main_learn_mt.cpp.i
+
+target_src/main_learn_mt.s: target_src/main_learn_mt.cpp.s
+
+.PHONY : target_src/main_learn_mt.s
+
+# target to generate assembly for a file
+target_src/main_learn_mt.cpp.s:
+	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/target_src/main_learn_mt.cpp.s
+.PHONY : target_src/main_learn_mt.cpp.s
+
+target_src/main_sample_inf.o: target_src/main_sample_inf.cpp.o
+
+.PHONY : target_src/main_sample_inf.o
+
+# target to build an object file
+target_src/main_sample_inf.cpp.o:
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/target_src/main_sample_inf.cpp.o
+.PHONY : target_src/main_sample_inf.cpp.o
+
+target_src/main_sample_inf.i: target_src/main_sample_inf.cpp.i
+
+.PHONY : target_src/main_sample_inf.i
+
+# target to preprocess a source file
+target_src/main_sample_inf.cpp.i:
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/target_src/main_sample_inf.cpp.i
+.PHONY : target_src/main_sample_inf.cpp.i
+
+target_src/main_sample_inf.s: target_src/main_sample_inf.cpp.s
+
+.PHONY : target_src/main_sample_inf.s
+
+# target to generate assembly for a file
+target_src/main_sample_inf.cpp.s:
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/target_src/main_sample_inf.cpp.s
+.PHONY : target_src/main_sample_inf.cpp.s
+
+target_src/main_sample_mt.o: target_src/main_sample_mt.cpp.o
+
+.PHONY : target_src/main_sample_mt.o
+
+# target to build an object file
+target_src/main_sample_mt.cpp.o:
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/target_src/main_sample_mt.cpp.o
+.PHONY : target_src/main_sample_mt.cpp.o
+
+target_src/main_sample_mt.i: target_src/main_sample_mt.cpp.i
+
+.PHONY : target_src/main_sample_mt.i
+
+# target to preprocess a source file
+target_src/main_sample_mt.cpp.i:
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/target_src/main_sample_mt.cpp.i
+.PHONY : target_src/main_sample_mt.cpp.i
+
+target_src/main_sample_mt.s: target_src/main_sample_mt.cpp.s
+
+.PHONY : target_src/main_sample_mt.s
+
+# target to generate assembly for a file
+target_src/main_sample_mt.cpp.s:
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/target_src/main_sample_mt.cpp.s
+.PHONY : target_src/main_sample_mt.cpp.s
 
 # Help Target
 help:
@@ -469,10 +706,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... GMLib"
-	@echo "... CNProposal"
+	@echo "... sampleInf"
+	@echo "... learnMT"
+	@echo "... exactInf"
+	@echo "... sampleMT"
 	@echo "... src/BTP.o"
 	@echo "... src/BTP.i"
 	@echo "... src/BTP.s"
@@ -503,9 +743,21 @@ help:
 	@echo "... src/Utils.o"
 	@echo "... src/Utils.i"
 	@echo "... src/Utils.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/myRandom.o"
+	@echo "... src/myRandom.i"
+	@echo "... src/myRandom.s"
+	@echo "... target_src/main_exact_inf.o"
+	@echo "... target_src/main_exact_inf.i"
+	@echo "... target_src/main_exact_inf.s"
+	@echo "... target_src/main_learn_mt.o"
+	@echo "... target_src/main_learn_mt.i"
+	@echo "... target_src/main_learn_mt.s"
+	@echo "... target_src/main_sample_inf.o"
+	@echo "... target_src/main_sample_inf.i"
+	@echo "... target_src/main_sample_inf.s"
+	@echo "... target_src/main_sample_mt.o"
+	@echo "... target_src/main_sample_mt.i"
+	@echo "... target_src/main_sample_mt.s"
 .PHONY : help
 
 

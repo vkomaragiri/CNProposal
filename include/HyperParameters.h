@@ -6,6 +6,9 @@
 #define CNPROPOSAL_HYPERPARAMETERS_H
 
 #include <MyTypes.h>
+enum ORDERING_HEURISTIC{
+    min_degree,min_fill,topological
+} ;
 struct HyperParameters{
     static int num_iterations_em;
     static int max_height;
@@ -18,6 +21,7 @@ struct HyperParameters{
     static int interval_for_structure_learning;
     static ldouble  mi_low_limit;
     static int num_samples;
+    static ORDERING_HEURISTIC ord_heu;
     HyperParameters()= default;
     static void setNumIterationsEM(int x){if (x<100000) num_iterations_em=x;}
     static void setIntervalForStructureLearning(int x){interval_for_structure_learning=x;}

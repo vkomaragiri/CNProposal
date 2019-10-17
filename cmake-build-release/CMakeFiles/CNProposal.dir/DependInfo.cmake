@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/vgogate/CLionProjects/CNProposal/src/MT_BTP.cpp" "/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/CNProposal.dir/src/MT_BTP.cpp.o"
   "/Users/vgogate/CLionProjects/CNProposal/src/Utils.cpp" "/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/CNProposal.dir/src/Utils.cpp.o"
   "/Users/vgogate/CLionProjects/CNProposal/src/main.cpp" "/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/CNProposal.dir/src/main.cpp.o"
+  "/Users/vgogate/CLionProjects/CNProposal/src/myRandom.cpp" "/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/CNProposal.dir/src/myRandom.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -21,7 +22,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "/usr/local/Cellar/boost/1.71.0/include"
-  "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/python2.7"
+  "/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"
   )
 
 # Targets to which this target links.

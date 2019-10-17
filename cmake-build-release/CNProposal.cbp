@@ -17,21 +17,21 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
@@ -46,7 +46,7 @@
 				<Compiler>
 					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/python2.7"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -70,7 +70,7 @@
 				<Compiler>
 					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/python2.7"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -85,8 +85,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CNProposal">
-				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CNProposal" prefix_auto="0" extension_auto="0"/>
+			<Target title="sampleInf">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/sampleInf" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,7 +94,7 @@
 				<Compiler>
 					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/python2.7"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -103,14 +103,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 CNProposal"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 sampleInf"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CNProposal/fast">
-				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CNProposal" prefix_auto="0" extension_auto="0"/>
+			<Target title="sampleInf/fast">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/sampleInf" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -118,7 +118,7 @@
 				<Compiler>
 					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/python2.7"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -127,111 +127,346 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 CNProposal/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 sampleInf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learnMT">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/learnMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 learnMT"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learnMT/fast">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/learnMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 learnMT/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exactInf">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/exactInf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 exactInf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exactInf/fast">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/exactInf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 exactInf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleMT">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/sampleMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 sampleMT"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleMT/fast">
+				<Option output="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/sampleMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/vgogate/CLionProjects/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 sampleMT/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CNProposal">
+			<Option target="GMLib"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
+		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/BTP.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/Data.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/Function.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/GM.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/GMSampler.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/HyperParameters.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/MI.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/MT.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/MTSampler.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/MyTypes.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/SamplingFunction.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/Utils.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/Variable.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/include/myRandom.h">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/BTP.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/Data.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/Function.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/GM.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/HyperParameters.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/MI.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/MT.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/MT_BTP.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp">
 			<Option target="GMLib"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/Utils.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
 		</Unit>
-		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/main.cpp">
+		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/src/myRandom.cpp">
 			<Option target="GMLib"/>
-			<Option target="CNProposal"/>
+			<Option target="sampleInf"/>
+			<Option target="learnMT"/>
+			<Option target="exactInf"/>
+			<Option target="sampleMT"/>
+		</Unit>
+		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/target_src/main_exact_inf.cpp">
+			<Option target="exactInf"/>
+		</Unit>
+		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/target_src/main_learn_mt.cpp">
+			<Option target="learnMT"/>
+		</Unit>
+		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/target_src/main_sample_inf.cpp">
+			<Option target="sampleInf"/>
+		</Unit>
+		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/target_src/main_sample_mt.cpp">
+			<Option target="sampleMT"/>
 		</Unit>
 		<Unit filename="/Users/vgogate/CLionProjects/CNProposal/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -1,4 +1,7 @@
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/GMLib.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/CNProposal.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/sampleInf.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/learnMT.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/exactInf.dir
+/Users/vgogate/CLionProjects/CNProposal/cmake-build-debug/CMakeFiles/sampleMT.dir
