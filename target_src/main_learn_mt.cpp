@@ -18,24 +18,28 @@ using namespace std;
 
 boost::program_options::options_description desc(
         "MTProposal");
-string dataset,outfilename_mt="tempfile.mt";
-Data train_data,valid_data,test_data;
+string dataset, outfilename_mt = "tempfile.mt";
+Data train_data, valid_data, test_data;
 
 
-int parseOptions(int argc, char* argv[]) {
+int parseOptions(int argc, char *argv[]) {
 
     try {
 
         //used (files .ts.data, .test.data, and .valid.data should be present in the directory)
         desc.add_options()
-        ("help,?", "produce help message")
-        ("dataset,d", boost::program_options::value<std::string>(&dataset), "Dataset (without extensions)")
-        ("outfile,o", boost::program_options::value<std::string>(&outfilename_mt), "Store Mixture of Trees")
-        ("ivl", boost::program_options::value<int>(&HyperParameters::interval_for_structure_learning)->default_value(10), "Interval for structure learning in EM")
-        ("nem", boost::program_options::value<int>(&HyperParameters::num_iterations_em)->default_value(100), "Max Number of iterations for EM")
-        ("tol",boost::program_options::value<ldouble>(&HyperParameters::tol)->default_value(1.0e-5),"Tolerance for EM LL scores")
-        ("nc",boost::program_options::value<int>(&HyperParameters::num_components)->default_value(10),"Number of Mixture Components")
-        ;
+                ("help,?", "produce help message")
+                ("dataset,d", boost::program_options::value<std::string>(&dataset), "Dataset (without extensions)")
+                ("outfile,o", boost::program_options::value<std::string>(&outfilename_mt), "Store Mixture of Trees")
+                ("ivl",
+                 boost::program_options::value<int>(&HyperParameters::interval_for_structure_learning)->default_value(
+                         10), "Interval for structure learning in EM")
+                ("nem", boost::program_options::value<int>(&HyperParameters::num_iterations_em)->default_value(100),
+                 "Max Number of iterations for EM")
+                ("tol", boost::program_options::value<ldouble>(&HyperParameters::tol)->default_value(1.0e-5),
+                 "Tolerance for EM LL scores")
+                ("nc", boost::program_options::value<int>(&HyperParameters::num_components)->default_value(10),
+                 "Number of Mixture Components");
 
         boost::program_options::variables_map vm;
         boost::program_options::store(
@@ -50,13 +54,13 @@ int parseOptions(int argc, char* argv[]) {
         }
         if (!dataset.empty()) {
             bool ret_value;
-            ret_value = train_data.read(dataset+".ts.data");
+            ret_value = train_data.read(dataset + ".ts.data");
             if (!ret_value)
                 return 0;
-            ret_value = valid_data.read(dataset+".valid.data");
+            ret_value = valid_data.read(dataset + ".valid.data");
             if (!ret_value)
                 return 0;
-            ret_value = test_data.read(dataset+".test.data");
+            ret_value = test_data.read(dataset + ".test.data");
             if (!ret_value)
                 return 0;
             return 1;
@@ -65,7 +69,7 @@ int parseOptions(int argc, char* argv[]) {
             return 0;
         }
         return 0;
-    } catch (exception& e) {
+    } catch (exception &e) {
         cerr << "error: " << e.what() << "\n";
         return 0;
     } catch (...) {
@@ -73,13 +77,14 @@ int parseOptions(int argc, char* argv[]) {
         return 0;
     }
 }
-int main(int argc, char* argv[]){
-    if(parseOptions(argc,argv)==0){
+
+int main(int argc, char *argv[]) {
+    if (parseOptions(argc, argv) == 0) {
         return 0;
     }
     train_data.append(valid_data);
     MT mt;
     mt.learn(train_data);
-    cout<<"Test set likelihood = "<<Utils::getLLScore(test_data,mt)<<endl;
+    cout << "Test set likelihood = " << Utils::getLLScore(test_data, mt) << endl;
     mt.write(outfilename_mt);
 }

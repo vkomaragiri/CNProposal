@@ -9,7 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o"
   "CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o"
   "CMakeFiles/GMLib.dir/src/Utils.cpp.o"
-  "CMakeFiles/GMLib.dir/src/main.cpp.o"
+  "CMakeFiles/GMLib.dir/src/myRandom.cpp.o"
   "GMLib.pdb"
   "GMLib.so"
 )

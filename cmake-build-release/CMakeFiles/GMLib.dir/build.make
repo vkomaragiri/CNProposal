@@ -57,22 +57,9 @@ include CMakeFiles/GMLib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GMLib.dir/flags.make
 
-CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o: CMakeFiles/GMLib.dir/flags.make
-CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o: ../src/PythonInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp
-
-CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp > CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i
-
-CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s
-
 CMakeFiles/GMLib.dir/src/Utils.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/Utils.cpp.o: ../src/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GMLib.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GMLib.dir/src/Utils.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Utils.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/Utils.cpp
 
 CMakeFiles/GMLib.dir/src/Utils.cpp.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/GMLib.dir/src/Utils.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/Function.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/Function.cpp.o: ../src/Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GMLib.dir/src/Function.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GMLib.dir/src/Function.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Function.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/Function.cpp
 
 CMakeFiles/GMLib.dir/src/Function.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/GMLib.dir/src/Function.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/GM.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/GM.cpp.o: ../src/GM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GMLib.dir/src/GM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GMLib.dir/src/GM.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/GM.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/GM.cpp
 
 CMakeFiles/GMLib.dir/src/GM.cpp.i: cmake_force
@@ -109,22 +96,9 @@ CMakeFiles/GMLib.dir/src/GM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/GM.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vgogate/CLionProjects/CNProposal/src/GM.cpp -o CMakeFiles/GMLib.dir/src/GM.cpp.s
 
-CMakeFiles/GMLib.dir/src/main.cpp.o: CMakeFiles/GMLib.dir/flags.make
-CMakeFiles/GMLib.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GMLib.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/main.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/main.cpp
-
-CMakeFiles/GMLib.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vgogate/CLionProjects/CNProposal/src/main.cpp > CMakeFiles/GMLib.dir/src/main.cpp.i
-
-CMakeFiles/GMLib.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vgogate/CLionProjects/CNProposal/src/main.cpp -o CMakeFiles/GMLib.dir/src/main.cpp.s
-
 CMakeFiles/GMLib.dir/src/MI.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/MI.cpp.o: ../src/MI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GMLib.dir/src/MI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GMLib.dir/src/MI.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MI.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/MI.cpp
 
 CMakeFiles/GMLib.dir/src/MI.cpp.i: cmake_force
@@ -137,7 +111,7 @@ CMakeFiles/GMLib.dir/src/MI.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/MT.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/MT.cpp.o: ../src/MT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GMLib.dir/src/MT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GMLib.dir/src/MT.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MT.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/MT.cpp
 
 CMakeFiles/GMLib.dir/src/MT.cpp.i: cmake_force
@@ -150,7 +124,7 @@ CMakeFiles/GMLib.dir/src/MT.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o: ../src/HyperParameters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/HyperParameters.cpp
 
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i: cmake_force
@@ -163,7 +137,7 @@ CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/Data.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/Data.cpp.o: ../src/Data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GMLib.dir/src/Data.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GMLib.dir/src/Data.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Data.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/Data.cpp
 
 CMakeFiles/GMLib.dir/src/Data.cpp.i: cmake_force
@@ -176,7 +150,7 @@ CMakeFiles/GMLib.dir/src/Data.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/BTP.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/BTP.cpp.o: ../src/BTP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GMLib.dir/src/BTP.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GMLib.dir/src/BTP.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/BTP.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/BTP.cpp
 
 CMakeFiles/GMLib.dir/src/BTP.cpp.i: cmake_force
@@ -189,7 +163,7 @@ CMakeFiles/GMLib.dir/src/BTP.cpp.s: cmake_force
 
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o: ../src/MT_BTP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/MT_BTP.cpp
 
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i: cmake_force
@@ -200,34 +174,60 @@ CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vgogate/CLionProjects/CNProposal/src/MT_BTP.cpp -o CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s
 
+CMakeFiles/GMLib.dir/src/myRandom.cpp.o: CMakeFiles/GMLib.dir/flags.make
+CMakeFiles/GMLib.dir/src/myRandom.cpp.o: ../src/myRandom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GMLib.dir/src/myRandom.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/myRandom.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/myRandom.cpp
+
+CMakeFiles/GMLib.dir/src/myRandom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/myRandom.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vgogate/CLionProjects/CNProposal/src/myRandom.cpp > CMakeFiles/GMLib.dir/src/myRandom.cpp.i
+
+CMakeFiles/GMLib.dir/src/myRandom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/myRandom.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vgogate/CLionProjects/CNProposal/src/myRandom.cpp -o CMakeFiles/GMLib.dir/src/myRandom.cpp.s
+
+CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o: CMakeFiles/GMLib.dir/flags.make
+CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o: ../src/PythonInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o -c /Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp
+
+CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp > CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i
+
+CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vgogate/CLionProjects/CNProposal/src/PythonInterface.cpp -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s
+
 # Object files for target GMLib
 GMLib_OBJECTS = \
-"CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o" \
 "CMakeFiles/GMLib.dir/src/Utils.cpp.o" \
 "CMakeFiles/GMLib.dir/src/Function.cpp.o" \
 "CMakeFiles/GMLib.dir/src/GM.cpp.o" \
-"CMakeFiles/GMLib.dir/src/main.cpp.o" \
 "CMakeFiles/GMLib.dir/src/MI.cpp.o" \
 "CMakeFiles/GMLib.dir/src/MT.cpp.o" \
 "CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o" \
 "CMakeFiles/GMLib.dir/src/Data.cpp.o" \
 "CMakeFiles/GMLib.dir/src/BTP.cpp.o" \
-"CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o"
+"CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o" \
+"CMakeFiles/GMLib.dir/src/myRandom.cpp.o" \
+"CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o"
 
 # External object files for target GMLib
 GMLib_EXTERNAL_OBJECTS =
 
-GMLib.so: CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/Utils.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/Function.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/GM.cpp.o
-GMLib.so: CMakeFiles/GMLib.dir/src/main.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/MI.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/MT.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/Data.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/BTP.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o
+GMLib.so: CMakeFiles/GMLib.dir/src/myRandom.cpp.o
+GMLib.so: CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/build.make
 GMLib.so: CMakeFiles/GMLib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library GMLib.so"

@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CNProposal.dir/src/MT_BTP.cpp.o"
   "CMakeFiles/CNProposal.dir/src/Utils.cpp.o"
   "CMakeFiles/CNProposal.dir/src/main.cpp.o"
+  "CMakeFiles/CNProposal.dir/src/myRandom.cpp.o"
   "CNProposal"
   "CNProposal.pdb"
 )

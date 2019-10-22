@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/M
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/vgogate/CLionProjects/CNProposal/include -I/usr/local/Cellar/boost/1.71.0/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/python2.7 
+CXX_INCLUDES = -I/Users/vgogate/CLionProjects/CNProposal/include -I/usr/local/Cellar/boost/1.71.0/include -I/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7 
 

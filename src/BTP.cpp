@@ -8,7 +8,7 @@
 BTP::BTP(GM &gm): pe(1.0),downward_performed(false),upward_performed(false) {
     //cout<<"Initing buckets\n";
     variables = gm.variables;
-    Utils::getMinDegreeOrder(gm.variables, gm.functions, order);
+    Utils::getOrder(gm.variables, gm.functions, order);
     buckets = vector<vector<Function> >(order.size());
     var_in_pos = vector<int>(order.size());
     for (int i = 0; i < var_in_pos.size(); i++)

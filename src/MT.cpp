@@ -71,7 +71,6 @@ struct SparseTree {
 };
 
 void MT::learn(Data &data) {
-    std::uniform_real_distribution<double> dist_real(0, 1);
     ncomponents = HyperParameters::num_components;
     this->probabilities = vector<ldouble>(ncomponents);
     this->variables = vector<Variable *>(data.nfeatures);
@@ -85,16 +84,10 @@ void MT::learn(Data &data) {
     vector<vector<ldouble> > weights(ncomponents, vector<ldouble>(data.nexamples));
     for (int i = 0; i < ncomponents; i++) {
         for (int j = 0; j < data.nexamples; j++) {
-            weights[i][j] = dist_real(myRandom::m_g);
+            weights[i][j] = myRandom::getDouble();
         }
     }
     Utils::normalizeDim2(weights);
-    for (int j = 0; j < 10; j++) {
-        for (int i = 0; i < ncomponents; i++) {
-            cout << weights[i][j] << " ";
-        }
-        cout << endl;
-    }
     cout << "Starting EM\n";
     for (int iter = 1; iter <= HyperParameters::num_iterations_em; iter++) {
         // E-step: Compute the Chow-Liu trees at each component
@@ -146,7 +139,7 @@ void MT::learn(Data &data) {
             }
             iter_ll += log(p);
         }
-        cout << "LL at iter " << iter << " = " << iter_ll / (ldouble) data.nexamples << endl;
+        //cout << "LL at iter " << iter << " = " << iter_ll / (ldouble) data.nexamples << endl;
         Utils::normalizeDim2(weights);
     }
 }
