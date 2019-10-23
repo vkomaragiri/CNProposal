@@ -1,7 +1,7 @@
 import GMLib
 
 d=GMLib.Data()
-d.read('/Users/vgogate/PycharmProjects/MarkovNetQuantization/data/nltcs.ts.data')
+d.read('/home/vasundhara/UTD/Research/Mixture_of_Trees/datasets/nltcs.ts.data')
 print(d.nexamples)
 print(d.nfeatures)
 v=GMLib.Variable()

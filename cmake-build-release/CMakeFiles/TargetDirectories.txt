@@ -1,7 +1,7 @@
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/edit_cache.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/rebuild_cache.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/GMLib.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/sampleInf.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/learnMT.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/exactInf.dir
-/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles/sampleMT.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/sampleMT.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/learnMT.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/exactInf.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/sampleInf.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/GMLib.dir
+/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles/edit_cache.dir

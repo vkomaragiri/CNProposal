@@ -11,7 +11,7 @@
 #include <Function.h>
 #include <Data.h>
 #include <SamplingFunction.h>
-
+#include <algorithm>
 
 
 struct GM {

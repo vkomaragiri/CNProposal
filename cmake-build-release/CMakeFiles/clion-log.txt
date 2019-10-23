@@ -1,5 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/vgogate/CLionProjects/CNProposal
+/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/vasundhara/UTD/Research/CNProposal
 -O3 -DNDEBUG
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/vgogate/CLionProjects/CNProposal/cmake-build-release
+-- Build files have been written to: /home/vasundhara/UTD/Research/CNProposal/cmake-build-release

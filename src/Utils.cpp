@@ -8,6 +8,7 @@
 #include <set>
 #include <list>
 #include <cfloat>
+#include <cassert>
 #include <Utils.h>
 #include <myRandom.h>
 #include <HyperParameters.h>
@@ -387,7 +388,7 @@ void Utils::getMinFillOrder(vector<Variable *> &variables, vector<Function> &fun
         graph[min_id].clear();
         processed[min_id] = true;
     }
-
+    /*
     // compute the estimate
     for (auto & cluster : clusters) {
         if ((int) cluster.size() > max_cluster_size)
@@ -399,6 +400,7 @@ void Utils::getMinFillOrder(vector<Variable *> &variables, vector<Function> &fun
         estimate += curr_estimate;
     }
     cout<<"Max cluster size = "<<max_cluster_size<<endl;
+    */
 }
 
 void Utils::getOrder(vector<Variable *> &variables, vector<Function> &functions, vector<int> &order)

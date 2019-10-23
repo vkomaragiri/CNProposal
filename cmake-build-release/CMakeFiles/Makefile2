@@ -35,38 +35,38 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vgogate/CLionProjects/CNProposal
+CMAKE_SOURCE_DIR = /home/vasundhara/UTD/Research/CNProposal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vgogate/CLionProjects/CNProposal/cmake-build-release
+CMAKE_BINARY_DIR = /home/vasundhara/UTD/Research/CNProposal/cmake-build-release
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/GMLib.dir/all
-all: CMakeFiles/sampleInf.dir/all
+all: CMakeFiles/sampleMT.dir/all
 all: CMakeFiles/learnMT.dir/all
 all: CMakeFiles/exactInf.dir/all
-all: CMakeFiles/sampleMT.dir/all
+all: CMakeFiles/sampleInf.dir/all
+all: CMakeFiles/GMLib.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/GMLib.dir/clean
-clean: CMakeFiles/sampleInf.dir/clean
+clean: CMakeFiles/sampleMT.dir/clean
 clean: CMakeFiles/learnMT.dir/clean
 clean: CMakeFiles/exactInf.dir/clean
-clean: CMakeFiles/sampleMT.dir/clean
+clean: CMakeFiles/sampleInf.dir/clean
+clean: CMakeFiles/GMLib.dir/clean
 
 .PHONY : clean
 
@@ -76,58 +76,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/GMLib.dir
+# Target rules for target CMakeFiles/sampleMT.dir
 
 # All Build rule for target.
-CMakeFiles/GMLib.dir/all:
-	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/depend
-	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GMLib"
-.PHONY : CMakeFiles/GMLib.dir/all
+CMakeFiles/sampleMT.dir/all:
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/depend
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60 "Built target sampleMT"
+.PHONY : CMakeFiles/sampleMT.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GMLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 12
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GMLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 0
-.PHONY : CMakeFiles/GMLib.dir/rule
+CMakeFiles/sampleMT.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sampleMT.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 0
+.PHONY : CMakeFiles/sampleMT.dir/rule
 
 # Convenience name for target.
-GMLib: CMakeFiles/GMLib.dir/rule
+sampleMT: CMakeFiles/sampleMT.dir/rule
 
-.PHONY : GMLib
-
-# clean rule for target.
-CMakeFiles/GMLib.dir/clean:
-	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/clean
-.PHONY : CMakeFiles/GMLib.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sampleInf.dir
-
-# All Build rule for target.
-CMakeFiles/sampleInf.dir/all:
-	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/depend
-	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48 "Built target sampleInf"
-.PHONY : CMakeFiles/sampleInf.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sampleInf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 12
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sampleInf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 0
-.PHONY : CMakeFiles/sampleInf.dir/rule
-
-# Convenience name for target.
-sampleInf: CMakeFiles/sampleInf.dir/rule
-
-.PHONY : sampleInf
+.PHONY : sampleMT
 
 # clean rule for target.
-CMakeFiles/sampleInf.dir/clean:
-	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/clean
-.PHONY : CMakeFiles/sampleInf.dir/clean
+CMakeFiles/sampleMT.dir/clean:
+	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/clean
+.PHONY : CMakeFiles/sampleMT.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/learnMT.dir
@@ -136,14 +109,14 @@ CMakeFiles/sampleInf.dir/clean:
 CMakeFiles/learnMT.dir/all:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/depend
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target learnMT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target learnMT"
 .PHONY : CMakeFiles/learnMT.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/learnMT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learnMT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 0
 .PHONY : CMakeFiles/learnMT.dir/rule
 
 # Convenience name for target.
@@ -163,14 +136,14 @@ CMakeFiles/learnMT.dir/clean:
 CMakeFiles/exactInf.dir/all:
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/depend
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target exactInf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target exactInf"
 .PHONY : CMakeFiles/exactInf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exactInf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exactInf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 0
 .PHONY : CMakeFiles/exactInf.dir/rule
 
 # Convenience name for target.
@@ -184,31 +157,58 @@ CMakeFiles/exactInf.dir/clean:
 .PHONY : CMakeFiles/exactInf.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sampleMT.dir
+# Target rules for target CMakeFiles/sampleInf.dir
 
 # All Build rule for target.
-CMakeFiles/sampleMT.dir/all:
-	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/depend
-	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60 "Built target sampleMT"
-.PHONY : CMakeFiles/sampleMT.dir/all
+CMakeFiles/sampleInf.dir/all:
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/depend
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48 "Built target sampleInf"
+.PHONY : CMakeFiles/sampleInf.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sampleMT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 12
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sampleMT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vgogate/CLionProjects/CNProposal/cmake-build-release/CMakeFiles 0
-.PHONY : CMakeFiles/sampleMT.dir/rule
+CMakeFiles/sampleInf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sampleInf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 0
+.PHONY : CMakeFiles/sampleInf.dir/rule
 
 # Convenience name for target.
-sampleMT: CMakeFiles/sampleMT.dir/rule
+sampleInf: CMakeFiles/sampleInf.dir/rule
 
-.PHONY : sampleMT
+.PHONY : sampleInf
 
 # clean rule for target.
-CMakeFiles/sampleMT.dir/clean:
-	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/clean
-.PHONY : CMakeFiles/sampleMT.dir/clean
+CMakeFiles/sampleInf.dir/clean:
+	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/clean
+.PHONY : CMakeFiles/sampleInf.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GMLib.dir
+
+# All Build rule for target.
+CMakeFiles/GMLib.dir/all:
+	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/depend
+	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GMLib"
+.PHONY : CMakeFiles/GMLib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GMLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GMLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-release/CMakeFiles 0
+.PHONY : CMakeFiles/GMLib.dir/rule
+
+# Convenience name for target.
+GMLib: CMakeFiles/GMLib.dir/rule
+
+.PHONY : GMLib
+
+# clean rule for target.
+CMakeFiles/GMLib.dir/clean:
+	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/clean
+.PHONY : CMakeFiles/GMLib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

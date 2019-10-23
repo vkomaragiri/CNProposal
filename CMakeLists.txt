@@ -18,10 +18,10 @@ add_executable(exactInf ${COMMON_SOURCES} target_src/main_exact_inf.cpp)
 add_executable(sampleInf ${COMMON_SOURCES} target_src/main_sample_inf.cpp)
 
 
-target_link_libraries(learnMT boost_program_options-mt)
-target_link_libraries(sampleMT boost_program_options-mt)
-target_link_libraries(exactInf boost_program_options-mt)
-target_link_libraries(sampleInf boost_program_options-mt)
+target_link_libraries(learnMT boost_program_options)
+target_link_libraries(sampleMT boost_program_options)
+target_link_libraries(exactInf boost_program_options)
+target_link_libraries(sampleInf boost_program_options)
 
 
 # Find default python libraries and interpreter
@@ -30,12 +30,14 @@ find_package(PythonLibs REQUIRED)
 
 # Build and link the pylib module
 add_library(GMLib SHARED ${COMMON_SOURCES} src/PythonInterface.cpp)
-target_link_libraries(GMLib boost_program_options-mt boost_python27-mt python2.7 boost_numpy27-mt )
-
+include_directories(GMLib /usr/include/python2.7 /usr/include/boost)
+target_link_libraries(GMLib boost_program_options boost_python python2.7 boost_numpy)
+#target_link_libraries(GMLib ${Boost_LIBRARIES} CNProposal)
 
 # Tweaks the name of the library to match what Python expects
 set_target_properties(GMLib PROPERTIES SUFFIX .so)
 set_target_properties(GMLib PROPERTIES PREFIX "")
 message(${CMAKE_CXX_FLAGS_RELEASE})
+
 
 
