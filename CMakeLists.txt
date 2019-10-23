@@ -30,7 +30,7 @@ find_package(PythonLibs REQUIRED)
 
 # Build and link the pylib module
 add_library(GMLib SHARED ${COMMON_SOURCES} src/PythonInterface.cpp)
-include_directories(GMLib /usr/include/python2.7 /usr/include/boost)
+include_directories(GMLib /usr/include/python2.7)
 target_link_libraries(GMLib boost_program_options boost_python python2.7 boost_numpy)
 #target_link_libraries(GMLib ${Boost_LIBRARIES} CNProposal)
 

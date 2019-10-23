@@ -29,7 +29,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -58,7 +57,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -87,7 +85,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -116,7 +113,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -155,7 +151,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -184,7 +179,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -213,7 +207,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -242,7 +235,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -271,7 +263,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -300,7 +291,6 @@
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
 					<Add directory="/home/vasundhara/UTD/Research/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/boost"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>

@@ -30,7 +30,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"
   "../GMLib"
   "/usr/include/python2.7"
-  "/usr/include/boost"
   )
 
 # Targets to which this target links.
