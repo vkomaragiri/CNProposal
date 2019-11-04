@@ -1,7 +1,8 @@
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/sampleMT.dir
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/learnMT.dir
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/exactInf.dir
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/sampleInf.dir
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/GMLib.dir
-/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/sampleMT.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/learnMT.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/exactInf.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/sampleInf.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/sampleBN.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/GMLib.dir

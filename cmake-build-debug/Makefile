@@ -48,10 +48,10 @@ RM = /home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vasundhara/UTD/Research/CNProposal
+CMAKE_SOURCE_DIR = /home/vasundhara/UTD/Research/Git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vasundhara/UTD/Research/Git/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles /home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -163,6 +163,19 @@ sampleInf/fast:
 .PHONY : sampleInf/fast
 
 #=============================================================================
+# Target rules for targets named sampleBN
+
+# Build rule for target.
+sampleBN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sampleBN
+.PHONY : sampleBN
+
+# fast build rule for target.
+sampleBN/fast:
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/build
+.PHONY : sampleBN/fast
+
+#=============================================================================
 # Target rules for targets named GMLib
 
 # Build rule for target.
@@ -185,6 +198,7 @@ src/BTP.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/BTP.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/BTP.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/BTP.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/BTP.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/BTP.cpp.o
 .PHONY : src/BTP.cpp.o
 
@@ -198,6 +212,7 @@ src/BTP.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/BTP.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/BTP.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/BTP.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/BTP.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/BTP.cpp.i
 .PHONY : src/BTP.cpp.i
 
@@ -211,6 +226,7 @@ src/BTP.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/BTP.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/BTP.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/BTP.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/BTP.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/BTP.cpp.s
 .PHONY : src/BTP.cpp.s
 
@@ -224,6 +240,7 @@ src/Data.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Data.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Data.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Data.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Data.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Data.cpp.o
 .PHONY : src/Data.cpp.o
 
@@ -237,6 +254,7 @@ src/Data.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Data.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Data.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Data.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Data.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Data.cpp.i
 .PHONY : src/Data.cpp.i
 
@@ -250,6 +268,7 @@ src/Data.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Data.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Data.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Data.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Data.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Data.cpp.s
 .PHONY : src/Data.cpp.s
 
@@ -263,6 +282,7 @@ src/Function.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Function.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Function.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Function.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Function.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Function.cpp.o
 .PHONY : src/Function.cpp.o
 
@@ -276,6 +296,7 @@ src/Function.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Function.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Function.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Function.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Function.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Function.cpp.i
 .PHONY : src/Function.cpp.i
 
@@ -289,6 +310,7 @@ src/Function.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Function.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Function.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Function.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Function.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Function.cpp.s
 .PHONY : src/Function.cpp.s
 
@@ -302,6 +324,7 @@ src/GM.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/GM.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/GM.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/GM.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/GM.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/GM.cpp.o
 .PHONY : src/GM.cpp.o
 
@@ -315,6 +338,7 @@ src/GM.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/GM.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/GM.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/GM.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/GM.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/GM.cpp.i
 .PHONY : src/GM.cpp.i
 
@@ -328,6 +352,7 @@ src/GM.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/GM.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/GM.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/GM.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/GM.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/GM.cpp.s
 .PHONY : src/GM.cpp.s
 
@@ -341,6 +366,7 @@ src/HyperParameters.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/HyperParameters.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/HyperParameters.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/HyperParameters.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/HyperParameters.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o
 .PHONY : src/HyperParameters.cpp.o
 
@@ -354,6 +380,7 @@ src/HyperParameters.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/HyperParameters.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/HyperParameters.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/HyperParameters.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/HyperParameters.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i
 .PHONY : src/HyperParameters.cpp.i
 
@@ -367,6 +394,7 @@ src/HyperParameters.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/HyperParameters.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/HyperParameters.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/HyperParameters.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/HyperParameters.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s
 .PHONY : src/HyperParameters.cpp.s
 
@@ -380,6 +408,7 @@ src/MI.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MI.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MI.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MI.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MI.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MI.cpp.o
 .PHONY : src/MI.cpp.o
 
@@ -393,6 +422,7 @@ src/MI.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MI.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MI.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MI.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MI.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MI.cpp.i
 .PHONY : src/MI.cpp.i
 
@@ -406,6 +436,7 @@ src/MI.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MI.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MI.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MI.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MI.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MI.cpp.s
 .PHONY : src/MI.cpp.s
 
@@ -419,6 +450,7 @@ src/MT.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MT.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT.cpp.o
 .PHONY : src/MT.cpp.o
 
@@ -432,6 +464,7 @@ src/MT.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MT.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT.cpp.i
 .PHONY : src/MT.cpp.i
 
@@ -445,6 +478,7 @@ src/MT.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MT.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT.cpp.s
 .PHONY : src/MT.cpp.s
 
@@ -458,6 +492,7 @@ src/MT_BTP.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT_BTP.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT_BTP.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT_BTP.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MT_BTP.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o
 .PHONY : src/MT_BTP.cpp.o
 
@@ -471,6 +506,7 @@ src/MT_BTP.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT_BTP.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT_BTP.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT_BTP.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MT_BTP.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i
 .PHONY : src/MT_BTP.cpp.i
 
@@ -484,6 +520,7 @@ src/MT_BTP.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/MT_BTP.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/MT_BTP.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/MT_BTP.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/MT_BTP.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s
 .PHONY : src/MT_BTP.cpp.s
 
@@ -524,6 +561,7 @@ src/Utils.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Utils.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Utils.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Utils.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Utils.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Utils.cpp.o
 .PHONY : src/Utils.cpp.o
 
@@ -537,6 +575,7 @@ src/Utils.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Utils.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Utils.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Utils.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Utils.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Utils.cpp.i
 .PHONY : src/Utils.cpp.i
 
@@ -550,6 +589,7 @@ src/Utils.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/Utils.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/Utils.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/Utils.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/Utils.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/Utils.cpp.s
 .PHONY : src/Utils.cpp.s
 
@@ -563,6 +603,7 @@ src/myRandom.cpp.o:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/myRandom.cpp.o
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/myRandom.cpp.o
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/myRandom.cpp.o
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/myRandom.cpp.o
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/myRandom.cpp.o
 .PHONY : src/myRandom.cpp.o
 
@@ -576,6 +617,7 @@ src/myRandom.cpp.i:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/myRandom.cpp.i
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/myRandom.cpp.i
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/myRandom.cpp.i
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/myRandom.cpp.i
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/myRandom.cpp.i
 .PHONY : src/myRandom.cpp.i
 
@@ -589,6 +631,7 @@ src/myRandom.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/src/myRandom.cpp.s
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/src/myRandom.cpp.s
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/src/myRandom.cpp.s
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/src/myRandom.cpp.s
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/src/myRandom.cpp.s
 .PHONY : src/myRandom.cpp.s
 
@@ -645,6 +688,33 @@ target_src/main_learn_mt.s: target_src/main_learn_mt.cpp.s
 target_src/main_learn_mt.cpp.s:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/target_src/main_learn_mt.cpp.s
 .PHONY : target_src/main_learn_mt.cpp.s
+
+target_src/main_sample_bn.o: target_src/main_sample_bn.cpp.o
+
+.PHONY : target_src/main_sample_bn.o
+
+# target to build an object file
+target_src/main_sample_bn.cpp.o:
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/target_src/main_sample_bn.cpp.o
+.PHONY : target_src/main_sample_bn.cpp.o
+
+target_src/main_sample_bn.i: target_src/main_sample_bn.cpp.i
+
+.PHONY : target_src/main_sample_bn.i
+
+# target to preprocess a source file
+target_src/main_sample_bn.cpp.i:
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/target_src/main_sample_bn.cpp.i
+.PHONY : target_src/main_sample_bn.cpp.i
+
+target_src/main_sample_bn.s: target_src/main_sample_bn.cpp.s
+
+.PHONY : target_src/main_sample_bn.s
+
+# target to generate assembly for a file
+target_src/main_sample_bn.cpp.s:
+	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/target_src/main_sample_bn.cpp.s
+.PHONY : target_src/main_sample_bn.cpp.s
 
 target_src/main_sample_inf.o: target_src/main_sample_inf.cpp.o
 
@@ -711,8 +781,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... exactInf"
 	@echo "... sampleInf"
-	@echo "... GMLib"
+	@echo "... sampleBN"
 	@echo "... edit_cache"
+	@echo "... GMLib"
 	@echo "... src/BTP.o"
 	@echo "... src/BTP.i"
 	@echo "... src/BTP.s"
@@ -752,6 +823,9 @@ help:
 	@echo "... target_src/main_learn_mt.o"
 	@echo "... target_src/main_learn_mt.i"
 	@echo "... target_src/main_learn_mt.s"
+	@echo "... target_src/main_sample_bn.o"
+	@echo "... target_src/main_sample_bn.i"
+	@echo "... target_src/main_sample_bn.s"
 	@echo "... target_src/main_sample_inf.o"
 	@echo "... target_src/main_sample_inf.i"
 	@echo "... target_src/main_sample_inf.s"

@@ -17,12 +17,14 @@ add_executable(exactInf ${COMMON_SOURCES} target_src/main_exact_inf.cpp)
 # Perform Approximate Sampling Based Inference
 add_executable(sampleInf ${COMMON_SOURCES} target_src/main_sample_inf.cpp)
 
+# Sample Bayesian Networks
+add_executable(sampleBN ${COMMON_SOURCES} target_src/main_sample_bn.cpp)
 
 target_link_libraries(learnMT boost_program_options)
 target_link_libraries(sampleMT boost_program_options)
 target_link_libraries(exactInf boost_program_options)
 target_link_libraries(sampleInf boost_program_options)
-
+target_link_libraries(sampleBN boost_program_options)
 
 # Find default python libraries and interpreter
 find_package(PythonInterp REQUIRED)

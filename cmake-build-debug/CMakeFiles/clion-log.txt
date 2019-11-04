@@ -1,5 +1,5 @@
-/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/vasundhara/UTD/Research/CNProposal
+/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/vasundhara/UTD/Research/Git
 -O3 -DNDEBUG
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug
+-- Build files have been written to: /home/vasundhara/UTD/Research/Git/cmake-build-debug

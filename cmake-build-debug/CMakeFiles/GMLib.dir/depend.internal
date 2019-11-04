@@ -13,18 +13,18 @@ CMakeFiles/GMLib.dir/src/BTP.cpp.o
  ../include/Utils.h
  ../include/Variable.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/BTP.cpp
+ /home/vasundhara/UTD/Research/Git/src/BTP.cpp
 CMakeFiles/GMLib.dir/src/Data.cpp.o
  ../include/Data.h
  ../include/MyTypes.h
- /home/vasundhara/UTD/Research/CNProposal/src/Data.cpp
+ /home/vasundhara/UTD/Research/Git/src/Data.cpp
 CMakeFiles/GMLib.dir/src/Function.cpp.o
  ../include/Data.h
  ../include/Function.h
  ../include/MyTypes.h
  ../include/Utils.h
  ../include/Variable.h
- /home/vasundhara/UTD/Research/CNProposal/src/Function.cpp
+ /home/vasundhara/UTD/Research/Git/src/Function.cpp
 CMakeFiles/GMLib.dir/src/GM.cpp.o
  ../include/Data.h
  ../include/Function.h
@@ -34,11 +34,11 @@ CMakeFiles/GMLib.dir/src/GM.cpp.o
  ../include/Utils.h
  ../include/Variable.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/GM.cpp
+ /home/vasundhara/UTD/Research/Git/src/GM.cpp
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o
  ../include/HyperParameters.h
  ../include/MyTypes.h
- /home/vasundhara/UTD/Research/CNProposal/src/HyperParameters.cpp
+ /home/vasundhara/UTD/Research/Git/src/HyperParameters.cpp
 CMakeFiles/GMLib.dir/src/MI.cpp.o
  ../include/Data.h
  ../include/Function.h
@@ -46,7 +46,7 @@ CMakeFiles/GMLib.dir/src/MI.cpp.o
  ../include/MyTypes.h
  ../include/Utils.h
  ../include/Variable.h
- /home/vasundhara/UTD/Research/CNProposal/src/MI.cpp
+ /home/vasundhara/UTD/Research/Git/src/MI.cpp
 CMakeFiles/GMLib.dir/src/MT.cpp.o
  ../include/Data.h
  ../include/Function.h
@@ -59,7 +59,7 @@ CMakeFiles/GMLib.dir/src/MT.cpp.o
  ../include/Utils.h
  ../include/Variable.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/MT.cpp
+ /home/vasundhara/UTD/Research/Git/src/MT.cpp
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o
  ../include/BTP.h
  ../include/Data.h
@@ -76,7 +76,7 @@ CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o
  ../include/Utils.h
  ../include/Variable.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/MT_BTP.cpp
+ /home/vasundhara/UTD/Research/Git/src/MT_BTP.cpp
 CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o
  ../include/BTP.h
  ../include/Data.h
@@ -93,7 +93,7 @@ CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o
  ../include/Utils.h
  ../include/Variable.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/PythonInterface.cpp
+ /home/vasundhara/UTD/Research/Git/src/PythonInterface.cpp
 CMakeFiles/GMLib.dir/src/Utils.cpp.o
  ../include/Data.h
  ../include/Function.h
@@ -102,8 +102,8 @@ CMakeFiles/GMLib.dir/src/Utils.cpp.o
  ../include/Utils.h
  ../include/Variable.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/Utils.cpp
+ /home/vasundhara/UTD/Research/Git/src/Utils.cpp
 CMakeFiles/GMLib.dir/src/myRandom.cpp.o
  ../include/MyTypes.h
  ../include/myRandom.h
- /home/vasundhara/UTD/Research/CNProposal/src/myRandom.cpp
+ /home/vasundhara/UTD/Research/Git/src/myRandom.cpp

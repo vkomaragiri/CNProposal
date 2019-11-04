@@ -43,10 +43,10 @@ RM = /home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vasundhara/UTD/Research/CNProposal
+CMAKE_SOURCE_DIR = /home/vasundhara/UTD/Research/Git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vasundhara/UTD/Research/Git/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GMLib.dir/depend.make
@@ -59,146 +59,146 @@ include CMakeFiles/GMLib.dir/flags.make
 
 CMakeFiles/GMLib.dir/src/Utils.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/Utils.cpp.o: ../src/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GMLib.dir/src/Utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Utils.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GMLib.dir/src/Utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Utils.cpp.o -c /home/vasundhara/UTD/Research/Git/src/Utils.cpp
 
 CMakeFiles/GMLib.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/Utils.cpp > CMakeFiles/GMLib.dir/src/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/Utils.cpp > CMakeFiles/GMLib.dir/src/Utils.cpp.i
 
 CMakeFiles/GMLib.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/Utils.cpp -o CMakeFiles/GMLib.dir/src/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/Utils.cpp -o CMakeFiles/GMLib.dir/src/Utils.cpp.s
 
 CMakeFiles/GMLib.dir/src/Function.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/Function.cpp.o: ../src/Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GMLib.dir/src/Function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Function.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GMLib.dir/src/Function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Function.cpp.o -c /home/vasundhara/UTD/Research/Git/src/Function.cpp
 
 CMakeFiles/GMLib.dir/src/Function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/Function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/Function.cpp > CMakeFiles/GMLib.dir/src/Function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/Function.cpp > CMakeFiles/GMLib.dir/src/Function.cpp.i
 
 CMakeFiles/GMLib.dir/src/Function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/Function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/Function.cpp -o CMakeFiles/GMLib.dir/src/Function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/Function.cpp -o CMakeFiles/GMLib.dir/src/Function.cpp.s
 
 CMakeFiles/GMLib.dir/src/GM.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/GM.cpp.o: ../src/GM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GMLib.dir/src/GM.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/GM.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/GM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GMLib.dir/src/GM.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/GM.cpp.o -c /home/vasundhara/UTD/Research/Git/src/GM.cpp
 
 CMakeFiles/GMLib.dir/src/GM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/GM.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/GM.cpp > CMakeFiles/GMLib.dir/src/GM.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/GM.cpp > CMakeFiles/GMLib.dir/src/GM.cpp.i
 
 CMakeFiles/GMLib.dir/src/GM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/GM.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/GM.cpp -o CMakeFiles/GMLib.dir/src/GM.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/GM.cpp -o CMakeFiles/GMLib.dir/src/GM.cpp.s
 
 CMakeFiles/GMLib.dir/src/MI.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/MI.cpp.o: ../src/MI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GMLib.dir/src/MI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MI.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/MI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GMLib.dir/src/MI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MI.cpp.o -c /home/vasundhara/UTD/Research/Git/src/MI.cpp
 
 CMakeFiles/GMLib.dir/src/MI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/MI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/MI.cpp > CMakeFiles/GMLib.dir/src/MI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/MI.cpp > CMakeFiles/GMLib.dir/src/MI.cpp.i
 
 CMakeFiles/GMLib.dir/src/MI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/MI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/MI.cpp -o CMakeFiles/GMLib.dir/src/MI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/MI.cpp -o CMakeFiles/GMLib.dir/src/MI.cpp.s
 
 CMakeFiles/GMLib.dir/src/MT.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/MT.cpp.o: ../src/MT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GMLib.dir/src/MT.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MT.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/MT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GMLib.dir/src/MT.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MT.cpp.o -c /home/vasundhara/UTD/Research/Git/src/MT.cpp
 
 CMakeFiles/GMLib.dir/src/MT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/MT.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/MT.cpp > CMakeFiles/GMLib.dir/src/MT.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/MT.cpp > CMakeFiles/GMLib.dir/src/MT.cpp.i
 
 CMakeFiles/GMLib.dir/src/MT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/MT.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/MT.cpp -o CMakeFiles/GMLib.dir/src/MT.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/MT.cpp -o CMakeFiles/GMLib.dir/src/MT.cpp.s
 
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o: ../src/HyperParameters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/HyperParameters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/HyperParameters.cpp.o -c /home/vasundhara/UTD/Research/Git/src/HyperParameters.cpp
 
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/HyperParameters.cpp > CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/HyperParameters.cpp > CMakeFiles/GMLib.dir/src/HyperParameters.cpp.i
 
 CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/HyperParameters.cpp -o CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/HyperParameters.cpp -o CMakeFiles/GMLib.dir/src/HyperParameters.cpp.s
 
 CMakeFiles/GMLib.dir/src/Data.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/Data.cpp.o: ../src/Data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GMLib.dir/src/Data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Data.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GMLib.dir/src/Data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/Data.cpp.o -c /home/vasundhara/UTD/Research/Git/src/Data.cpp
 
 CMakeFiles/GMLib.dir/src/Data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/Data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/Data.cpp > CMakeFiles/GMLib.dir/src/Data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/Data.cpp > CMakeFiles/GMLib.dir/src/Data.cpp.i
 
 CMakeFiles/GMLib.dir/src/Data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/Data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/Data.cpp -o CMakeFiles/GMLib.dir/src/Data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/Data.cpp -o CMakeFiles/GMLib.dir/src/Data.cpp.s
 
 CMakeFiles/GMLib.dir/src/BTP.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/BTP.cpp.o: ../src/BTP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GMLib.dir/src/BTP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/BTP.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/BTP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GMLib.dir/src/BTP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/BTP.cpp.o -c /home/vasundhara/UTD/Research/Git/src/BTP.cpp
 
 CMakeFiles/GMLib.dir/src/BTP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/BTP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/BTP.cpp > CMakeFiles/GMLib.dir/src/BTP.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/BTP.cpp > CMakeFiles/GMLib.dir/src/BTP.cpp.i
 
 CMakeFiles/GMLib.dir/src/BTP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/BTP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/BTP.cpp -o CMakeFiles/GMLib.dir/src/BTP.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/BTP.cpp -o CMakeFiles/GMLib.dir/src/BTP.cpp.s
 
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o: ../src/MT_BTP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/MT_BTP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/MT_BTP.cpp.o -c /home/vasundhara/UTD/Research/Git/src/MT_BTP.cpp
 
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/MT_BTP.cpp > CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/MT_BTP.cpp > CMakeFiles/GMLib.dir/src/MT_BTP.cpp.i
 
 CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/MT_BTP.cpp -o CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/MT_BTP.cpp -o CMakeFiles/GMLib.dir/src/MT_BTP.cpp.s
 
 CMakeFiles/GMLib.dir/src/myRandom.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/myRandom.cpp.o: ../src/myRandom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GMLib.dir/src/myRandom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/myRandom.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/myRandom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GMLib.dir/src/myRandom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/myRandom.cpp.o -c /home/vasundhara/UTD/Research/Git/src/myRandom.cpp
 
 CMakeFiles/GMLib.dir/src/myRandom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/myRandom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/myRandom.cpp > CMakeFiles/GMLib.dir/src/myRandom.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/myRandom.cpp > CMakeFiles/GMLib.dir/src/myRandom.cpp.i
 
 CMakeFiles/GMLib.dir/src/myRandom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/myRandom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/myRandom.cpp -o CMakeFiles/GMLib.dir/src/myRandom.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/myRandom.cpp -o CMakeFiles/GMLib.dir/src/myRandom.cpp.s
 
 CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o: CMakeFiles/GMLib.dir/flags.make
 CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o: ../src/PythonInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o -c /home/vasundhara/UTD/Research/CNProposal/src/PythonInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o -c /home/vasundhara/UTD/Research/Git/src/PythonInterface.cpp
 
 CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/CNProposal/src/PythonInterface.cpp > CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasundhara/UTD/Research/Git/src/PythonInterface.cpp > CMakeFiles/GMLib.dir/src/PythonInterface.cpp.i
 
 CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/CNProposal/src/PythonInterface.cpp -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasundhara/UTD/Research/Git/src/PythonInterface.cpp -o CMakeFiles/GMLib.dir/src/PythonInterface.cpp.s
 
 # Object files for target GMLib
 GMLib_OBJECTS = \
@@ -230,7 +230,7 @@ GMLib.so: CMakeFiles/GMLib.dir/src/myRandom.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/src/PythonInterface.cpp.o
 GMLib.so: CMakeFiles/GMLib.dir/build.make
 GMLib.so: CMakeFiles/GMLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library GMLib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library GMLib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GMLib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/GMLib.dir/clean:
 .PHONY : CMakeFiles/GMLib.dir/clean
 
 CMakeFiles/GMLib.dir/depend:
-	cd /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vasundhara/UTD/Research/CNProposal /home/vasundhara/UTD/Research/CNProposal /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug /home/vasundhara/UTD/Research/CNProposal/cmake-build-debug/CMakeFiles/GMLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vasundhara/UTD/Research/Git/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vasundhara/UTD/Research/Git /home/vasundhara/UTD/Research/Git /home/vasundhara/UTD/Research/Git/cmake-build-debug /home/vasundhara/UTD/Research/Git/cmake-build-debug /home/vasundhara/UTD/Research/Git/cmake-build-debug/CMakeFiles/GMLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GMLib.dir/depend
 

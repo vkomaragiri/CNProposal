@@ -58,5 +58,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/learnMT.dir/DependInfo.cmake"
   "CMakeFiles/exactInf.dir/DependInfo.cmake"
   "CMakeFiles/sampleInf.dir/DependInfo.cmake"
+  "CMakeFiles/sampleBN.dir/DependInfo.cmake"
   "CMakeFiles/GMLib.dir/DependInfo.cmake"
   )
