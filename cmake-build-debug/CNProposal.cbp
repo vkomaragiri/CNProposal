@@ -8,326 +8,36 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sampleMT">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/sampleMT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleMT"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sampleMT/fast">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/sampleMT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleMT/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="learnMT">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/learnMT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 learnMT"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="learnMT/fast">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/learnMT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 learnMT/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exactInf">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/exactInf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 exactInf"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exactInf/fast">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/exactInf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 exactInf/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sampleInf">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/sampleInf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleInf"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sampleInf/fast">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/sampleInf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleInf/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sampleBN">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/sampleBN" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleBN"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sampleBN/fast">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/sampleBN" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
-					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
-					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
-					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleBN/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GMLib">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/GMLib.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/GMLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -339,23 +49,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 GMLib"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 GMLib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GMLib/fast">
-				<Option output="/home/vasundhara/UTD/Research/Git/cmake-build-debug/GMLib.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vasundhara/UTD/Research/Git/cmake-build-debug"/>
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/GMLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/vasundhara/UTD/Research/Git/include"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
 					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
 					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
-					<Add directory="/home/vasundhara/UTD/Research/Git/GMLib"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
 					<Add directory="/usr/include/python2.7"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -367,232 +77,606 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 GMLib/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 GMLib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleMT">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/sampleMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleMT"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleMT/fast">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/sampleMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleMT/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learnMT">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/learnMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 learnMT"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learnMT/fast">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/learnMT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 learnMT/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genEvid">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/genEvid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 genEvid"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genEvid/fast">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/genEvid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 genEvid/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exactInf">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/exactInf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 exactInf"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exactInf/fast">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/exactInf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 exactInf/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleInf">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/sampleInf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleInf"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleInf/fast">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/sampleInf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleInf/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleBN">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/sampleBN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleBN"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampleBN/fast">
+				<Option output="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/sampleBN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.71.0/include"/>
+					<Add directory="/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"/>
+					<Add directory="/home/vasundhara/UTD/Research/Git/CNProposal/GMLib"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 sampleBN/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/cmake-build-debug/CNProposal">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CNProposal">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/BTP.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/BTP.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/Data.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/Data.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/Function.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/Function.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/GM.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/GM.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/GMSampler.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/GMSampler.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/HyperParameters.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/HyperParameters.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/MI.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/MI.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/MT.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/MT.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/MTSampler.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/MTSampler.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/MyTypes.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/MyTypes.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/SamplingFunction.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/SamplingFunction.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/Utils.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/Utils.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/Variable.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/Variable.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/include/myRandom.h">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/include/myRandom.h">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/BTP.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/BTP.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/Data.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/Data.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/Function.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/Function.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/GM.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/GM.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/HyperParameters.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/HyperParameters.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/MI.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/MI.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/MT.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/MT.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/MT_BTP.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/MT_BTP.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
+		</Unit>
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/PythonInterface.cpp">
 			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/PythonInterface.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/Utils.cpp">
 			<Option target="GMLib"/>
-		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/Utils.cpp">
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/src/myRandom.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/src/myRandom.cpp">
+			<Option target="GMLib"/>
 			<Option target="sampleMT"/>
 			<Option target="learnMT"/>
+			<Option target="genEvid"/>
 			<Option target="exactInf"/>
 			<Option target="sampleInf"/>
 			<Option target="sampleBN"/>
-			<Option target="GMLib"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/target_src/main_exact_inf.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/target_src/main_exact_inf_mt.cpp">
 			<Option target="exactInf"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/target_src/main_learn_mt.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/target_src/main_gen_evid.cc">
+			<Option target="genEvid"/>
+		</Unit>
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/target_src/main_learn_mt.cpp">
 			<Option target="learnMT"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/target_src/main_sample_bn.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/target_src/main_sample_bn.cpp">
 			<Option target="sampleBN"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/target_src/main_sample_inf.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/target_src/main_sample_inf.cpp">
 			<Option target="sampleInf"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/target_src/main_sample_mt.cpp">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/target_src/main_sample_mt.cpp">
 			<Option target="sampleMT"/>
 		</Unit>
-		<Unit filename="/home/vasundhara/UTD/Research/Git/CMakeLists.txt">
+		<Unit filename="/home/vasundhara/UTD/Research/Git/CNProposal/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

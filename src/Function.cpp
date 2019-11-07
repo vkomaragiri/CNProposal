@@ -38,7 +38,8 @@ void Function::instantiateEvidence(Function &out) {
     if (out.variables.size() == variables.size()) {
         out.cpt_var=cpt_var;
         out.table = table;
-    } else {
+    }
+    else {
         int dom_size = Utils::getDomainSize(out.variables);
         out.table = vector<ldouble>(dom_size,1.0);
         for (int i = 0; i < dom_size; i++) {
@@ -46,7 +47,6 @@ void Function::instantiateEvidence(Function &out) {
             out.table[i] = table[Utils::getAddress(variables)];
         }
     }
-
 }
 
 void Function::print() {

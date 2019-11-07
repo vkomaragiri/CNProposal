@@ -20,6 +20,17 @@ struct GM {
 
     GM() {}
 
+    GM(const GM &gm) {
+        for(auto var: gm.variables){
+            Variable* var2 = new Variable(*(var));
+            variables.push_back(var2);
+        }
+        for(auto func: gm.functions){
+            functions.push_back(Function(func));
+        }
+
+    }
+
     ~GM() {}
 
 

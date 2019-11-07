@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DGMLib_EXPORTS
 
-CXX_INCLUDES = -I/home/vasundhara/UTD/Research/Git/include -I/usr/local/Cellar/boost/1.71.0/include -I/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I/home/vasundhara/UTD/Research/Git/GMLib -I/usr/include/python2.7 
+CXX_INCLUDES = -I/home/vasundhara/UTD/Research/Git/CNProposal/include -I/usr/local/Cellar/boost/1.71.0/include -I/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I/home/vasundhara/UTD/Research/Git/CNProposal/GMLib -I/usr/include/python2.7 
 

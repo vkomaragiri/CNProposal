@@ -1,4 +1,4 @@
-# Install script for directory: /home/vasundhara/UTD/Research/Git
+# Install script for directory: /home/vasundhara/UTD/Research/Git/CNProposal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vasundhara/UTD/Research/Git/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -225,8 +225,10 @@ void MT::read(const string &filename)
             tree_gms[i].functions[j].variables=vector<Variable*> (nvars);
             for (int k=0;k<nvars;k++) {
                 int varid;
-                in>>varid;
-                tree_gms[i].functions[j].variables[k]=variables[varid];
+                in >> varid;
+                tree_gms[i].functions[j].variables[k] = variables[varid];
+                if(k == nvars-1)
+                    tree_gms[i].functions[j].cpt_var = variables[varid];
             }
         }
 

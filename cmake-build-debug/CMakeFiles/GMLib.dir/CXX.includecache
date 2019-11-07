@@ -198,19 +198,13 @@ random
 chrono
 -
 
-/home/vasundhara/UTD/Research/Git/src/BTP.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/BTP.cpp
 BTP.h
 -
 iostream
 -
 
-/home/vasundhara/UTD/Research/Git/src/Data.cpp
-Data.h
--
-boost/tokenizer.hpp
--
-
-/home/vasundhara/UTD/Research/Git/src/Function.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/Function.cpp
 iostream
 -
 Function.h
@@ -218,17 +212,13 @@ Function.h
 Utils.h
 -
 
-/home/vasundhara/UTD/Research/Git/src/GM.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/GM.cpp
 GM.h
 -
 Utils.h
 -
 
-/home/vasundhara/UTD/Research/Git/src/HyperParameters.cpp
-HyperParameters.h
--
-
-/home/vasundhara/UTD/Research/Git/src/MI.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/MI.cpp
 MI.h
 -
 MyTypes.h
@@ -236,7 +226,7 @@ MyTypes.h
 Utils.h
 -
 
-/home/vasundhara/UTD/Research/Git/src/MT.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/MT.cpp
 MT.h
 -
 MI.h
@@ -256,11 +246,11 @@ fstream
 HyperParameters.h
 -
 
-/home/vasundhara/UTD/Research/Git/src/MT_BTP.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/MT_BTP.cpp
 MT_BTP.h
 -
 
-/home/vasundhara/UTD/Research/Git/src/PythonInterface.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/PythonInterface.cpp
 boost/python.hpp
 -
 boost/python/numpy.hpp
@@ -278,7 +268,7 @@ MTSampler.h
 MT_BTP.h
 -
 
-/home/vasundhara/UTD/Research/Git/src/Utils.cpp
+/home/vasundhara/UTD/Research/Git/CNProposal/src/Utils.cpp
 vector
 -
 random
@@ -298,9 +288,5 @@ Utils.h
 myRandom.h
 -
 HyperParameters.h
--
-
-/home/vasundhara/UTD/Research/Git/src/myRandom.cpp
-myRandom.h
 -
 

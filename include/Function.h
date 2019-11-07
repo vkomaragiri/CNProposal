@@ -34,6 +34,16 @@ struct Function {
 
     Function(vector<Variable *> &variables_, vector<ldouble> &table_);
 
+    Function(const Function &f){
+        for(auto var: f.variables){
+            variables.push_back(new Variable(*var));
+        }
+        cpt_var = new Variable(*(f.cpt_var));
+        for(auto t: f.table){
+            table.push_back(t);
+        }
+    }
+
     ~Function() {
         variables.clear();
         table.clear();

@@ -13,6 +13,8 @@ struct Variable{
     int id,value,d,t_value;
     // Constructor
     Variable(): id(-1),value(-1),d(0),t_value(-1){}
+    //Copy Constructor
+    Variable(const Variable &var) = default;
     ~Variable(){}
     Variable(int id_,int d_):id(id_),d(d_),value(-1),t_value(-1){}
     inline void setValue(int value_){if(value_<d) {value=value_;} else {cerr<<"Wrong value assigned\n";exit(-1);}}
@@ -20,6 +22,7 @@ struct Variable{
     inline bool isEvidence(){
         return (value!=INVALID_VALUE);
     }
+    int getDomain(){return d;}
 };
 
 #endif //CNPROPOSAL_VARIABLE_H

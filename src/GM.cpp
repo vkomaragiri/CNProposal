@@ -45,7 +45,7 @@ void GM::addBinaryCPT(int from, int to) {
         function.variables.push_back(variables[to]);
     }
     function.cpt_var = variables[to];
-    functions.push_back(function);
+        functions.push_back(function);
 }
 
 void GM::addUnaryCPT(int i) {
