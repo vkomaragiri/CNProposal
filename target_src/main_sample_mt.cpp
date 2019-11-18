@@ -19,7 +19,7 @@ using namespace std;
 
 boost::program_options::options_description desc(
         "MTProposal");
-string infilename, outfilename = "tmpfile.mar", evidfilename;
+string infilename, outfilename = "tmpfile.mar", evidfilename, fname;
 
 
 std::istream &operator>>(std::istream &in, ORDERING_HEURISTIC &ordering_heu) {
@@ -47,13 +47,20 @@ int parseOptions(int argc, char *argv[]) {
                 ("outfile,o", boost::program_options::value<std::string>(&outfilename), "Store Variable Marginals")
                 ("heuristic,h", boost::program_options::value<ORDERING_HEURISTIC>(&HyperParameters::ord_heu),
                  "Ordering Heuristic")
-                ("evidfile,e", boost::program_options::value<std::string>(&evidfilename), "Evidence file");
+                ("evidfile,e", boost::program_options::value<std::string>(&evidfilename), "Evidence file")
+                ("fname,f", boost::program_options::value<std::string>(&fname), "File Name");
 
         boost::program_options::variables_map vm;
         boost::program_options::store(
                 boost::program_options::parse_command_line(argc, argv, desc),
                 vm);
         boost::program_options::notify(vm);
+
+        if(!fname.empty()){
+            infilename = infilename+fname;
+            outfilename = outfilename+fname;
+            evidfilename = evidfilename+fname;
+        }
 
         if (vm.count("help")) {
             cout << desc << endl;

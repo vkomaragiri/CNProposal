@@ -21,7 +21,11 @@ add_executable(sampleInf ${COMMON_SOURCES} target_src/main_sample_inf.cpp)
 add_executable(sampleBN ${COMMON_SOURCES} target_src/main_sample_bn.cpp)
 # Generate evidence from leaves in BN
 add_executable(genEvid ${COMMON_SOURCES} target_src/main_gen_evid.cc)
+# Learn cpts from data for BN
+add_executable(cptBN ${COMMON_SOURCES} target_src/main_bn_sample_cpt.cpp)
 
+# Check MTS
+add_executable(mtsCheck ${COMMON_SOURCES} target_src/main_check_mts.cpp)
 
 target_link_libraries(learnMT boost_program_options)
 target_link_libraries(sampleMT boost_program_options)
@@ -30,7 +34,8 @@ target_link_libraries(sampleInf boost_program_options)
 target_link_libraries(sampleBN boost_program_options)
 
 target_link_libraries(genEvid boost_program_options)
-
+target_link_libraries(cptBN boost_program_options)
+target_link_libraries(mtsCheck boost_program_options)
 
 # Find default python libraries and interpreter
 find_package(PythonInterp REQUIRED)
@@ -46,6 +51,3 @@ target_link_libraries(GMLib ${Boost_LIBRARIES})
 set_target_properties(GMLib PROPERTIES SUFFIX .so)
 set_target_properties(GMLib PROPERTIES PREFIX "")
 message(${CMAKE_CXX_FLAGS_RELEASE})
-
-
-

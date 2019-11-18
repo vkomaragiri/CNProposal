@@ -159,3 +159,51 @@ void GM::readUAI08(const string filename) {
     }
     in.close();
 }
+
+void GM::updateParams(Data &data){
+    for(auto func: functions){
+        if(func.variables.size() > 0) {
+            for(int i = 0; i < func.table.size(); i++){
+                func.table[i] = 1/(func.table.size()*data.nexamples);
+            }
+        }
+    }
+    for(auto dt : data.data_matrix){
+        for(auto func: functions){
+            for(auto var: func.variables){
+                var->t_value = dt[var->id];
+            }
+            int ind = Utils::getAddress(func.variables);
+            func.table[ind]++;
+        }
+    }
+    for(auto func: functions){
+        Utils::normalizeAndGetNormConst(func);
+        Utils::functionToCPT(func, func.cpt_var);
+    }
+}
+
+void GM::write(const string& filename){
+    ofstream out(filename);
+    out << "BAYES" << endl;
+    out << variables.size() << endl;
+    for(auto var: variables){
+        out << var->d << " ";
+    }
+    out << endl;
+    out << functions.size() << endl;
+    for(auto func: functions){
+        out << func.variables.size() << " ";
+        for(auto var: func.variables){
+            out << var->id << " ";
+        }
+        out << endl;
+    }
+    for(auto func: functions){
+        out << func.table.size() << endl;
+        for(auto val: func.table){
+            out << val << " ";
+        }
+        out << endl;
+    }
+}

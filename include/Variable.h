@@ -17,7 +17,7 @@ struct Variable{
     Variable(const Variable &var) = default;
     ~Variable(){}
     Variable(int id_,int d_):id(id_),d(d_),value(-1),t_value(-1){}
-    inline void setValue(int value_){if(value_<d) {value=value_;} else {cerr<<"Wrong value assigned\n";exit(-1);}}
+    inline void setValue(int value_){if(value_<d) {value=value_;} else {cerr<<"Wrong value assigned " << d << value_ << endl;exit(-1);}}
     inline int getValue(){return value;}
     inline bool isEvidence(){
         return (value!=INVALID_VALUE);

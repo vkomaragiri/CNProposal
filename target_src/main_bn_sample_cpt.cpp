@@ -18,7 +18,7 @@ using namespace std;
 
 boost::program_options::options_description desc(
         "MTProposal");
-string dataset, outfilename_mt = "tempfile.mt", fname;
+string dataset, infile, outfile, fname;
 Data train_data, valid_data, test_data;
 
 
@@ -30,32 +30,37 @@ int parseOptions(int argc, char *argv[]) {
         desc.add_options()
                 ("help,?", "produce help message")
                 ("dataset,d", boost::program_options::value<std::string>(&dataset), "Dataset (without extensions)")
-                ("outfile,o", boost::program_options::value<std::string>(&outfilename_mt), "Store Mixture of Trees")
-                ("ivl",
-                 boost::program_options::value<int>(&HyperParameters::interval_for_structure_learning)->default_value(
-                         10), "Interval for structure learning in EM")
-                ("nem", boost::program_options::value<int>(&HyperParameters::num_iterations_em)->default_value(100),
-                 "Max Number of iterations for EM")
-                ("tol", boost::program_options::value<ldouble>(&HyperParameters::tol)->default_value(1.0e-5),
-                 "Tolerance for EM LL scores")
-                ("nc", boost::program_options::value<int>(&HyperParameters::num_components)->default_value(10),
-                 "Number of Mixture Components")
+                ("infile,i", boost::program_options::value<std::string>(&infile), "Input BN file")
+                ("outfile,o", boost::program_options::value<std::string>(&outfile), "Output BN file")
                 ("fname,f", boost::program_options::value<std::string>(&fname), "File Name");
-
 
         boost::program_options::variables_map vm;
         boost::program_options::store(
                 boost::program_options::parse_command_line(argc, argv, desc),
                 vm);
         boost::program_options::notify(vm);
-        if(!fname.empty()) {
-            dataset = dataset + fname;
-            outfilename_mt = outfilename_mt + fname;
+        if(!fname.empty()){
+            infile = infile+fname;
+            outfile = outfile+fname;
+            dataset = dataset+fname;
         }
+
         if (vm.count("help")) {
             cout << desc << endl;
             vm.clear();
             return 0;
+        }
+        if (infile.empty()) {
+            cout << " No probabilistic model file provided\n";
+            cout << desc << endl;
+            vm.clear();
+            exit(-1);
+        }
+        if(outfile.empty()){
+            cout << " No storage model file provided\n";
+            cout << desc << endl;
+            vm.clear();
+            exit(-1);
         }
         if (!dataset.empty()) {
             bool ret_value;
@@ -88,8 +93,9 @@ int main(int argc, char *argv[]) {
         return 0;
     }
     train_data.append(valid_data);
-    MT mt;
-    mt.learn(train_data);
-    cout << "Test set likelihood = " << Utils::getLLScore(test_data, mt) << endl;
-    mt.write(outfilename_mt);
+
+    GM gm;
+    gm.readUAI08(infile);
+    gm.updateParams(train_data);
+    gm.write(outfile);
 }

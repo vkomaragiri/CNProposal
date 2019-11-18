@@ -19,7 +19,7 @@ struct GM {
     vector<Function> functions;
 
     GM() {}
-
+    /*
     GM(const GM &gm) {
         for(auto var: gm.variables){
             Variable* var2 = new Variable(*(var));
@@ -30,7 +30,7 @@ struct GM {
         }
 
     }
-
+    */
     ~GM() {}
 
 
@@ -43,8 +43,10 @@ struct GM {
     ldouble getProbability(vector<int>& example);
     ldouble getLogProbability(vector<int>& example);
 
-    void readUAI08(const string filename);
+    void updateParams(Data &d);
 
+    void readUAI08(const string filename);
+    void write(const string& filename);
 
 };
 

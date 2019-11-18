@@ -53,7 +53,9 @@ CMAKE_BINARY_DIR = /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/mtsCheck.dir/all
 all: CMakeFiles/GMLib.dir/all
+all: CMakeFiles/cptBN.dir/all
 all: CMakeFiles/sampleMT.dir/all
 all: CMakeFiles/learnMT.dir/all
 all: CMakeFiles/genEvid.dir/all
@@ -64,7 +66,9 @@ all: CMakeFiles/sampleBN.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/mtsCheck.dir/clean
 clean: CMakeFiles/GMLib.dir/clean
+clean: CMakeFiles/cptBN.dir/clean
 clean: CMakeFiles/sampleMT.dir/clean
 clean: CMakeFiles/learnMT.dir/clean
 clean: CMakeFiles/genEvid.dir/clean
@@ -80,18 +84,45 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/mtsCheck.dir
+
+# All Build rule for target.
+CMakeFiles/mtsCheck.dir/all:
+	$(MAKE) -f CMakeFiles/mtsCheck.dir/build.make CMakeFiles/mtsCheck.dir/depend
+	$(MAKE) -f CMakeFiles/mtsCheck.dir/build.make CMakeFiles/mtsCheck.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66 "Built target mtsCheck"
+.PHONY : CMakeFiles/mtsCheck.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mtsCheck.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mtsCheck.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/mtsCheck.dir/rule
+
+# Convenience name for target.
+mtsCheck: CMakeFiles/mtsCheck.dir/rule
+
+.PHONY : mtsCheck
+
+# clean rule for target.
+CMakeFiles/mtsCheck.dir/clean:
+	$(MAKE) -f CMakeFiles/mtsCheck.dir/build.make CMakeFiles/mtsCheck.dir/clean
+.PHONY : CMakeFiles/mtsCheck.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/GMLib.dir
 
 # All Build rule for target.
 CMakeFiles/GMLib.dir/all:
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/depend
 	$(MAKE) -f CMakeFiles/GMLib.dir/build.make CMakeFiles/GMLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GMLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target GMLib"
 .PHONY : CMakeFiles/GMLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GMLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GMLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/GMLib.dir/rule
@@ -107,13 +138,40 @@ CMakeFiles/GMLib.dir/clean:
 .PHONY : CMakeFiles/GMLib.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/cptBN.dir
+
+# All Build rule for target.
+CMakeFiles/cptBN.dir/all:
+	$(MAKE) -f CMakeFiles/cptBN.dir/build.make CMakeFiles/cptBN.dir/depend
+	$(MAKE) -f CMakeFiles/cptBN.dir/build.make CMakeFiles/cptBN.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22 "Built target cptBN"
+.PHONY : CMakeFiles/cptBN.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cptBN.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cptBN.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/cptBN.dir/rule
+
+# Convenience name for target.
+cptBN: CMakeFiles/cptBN.dir/rule
+
+.PHONY : cptBN
+
+# clean rule for target.
+CMakeFiles/cptBN.dir/clean:
+	$(MAKE) -f CMakeFiles/cptBN.dir/build.make CMakeFiles/cptBN.dir/clean
+.PHONY : CMakeFiles/cptBN.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/sampleMT.dir
 
 # All Build rule for target.
 CMakeFiles/sampleMT.dir/all:
 	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/depend
 	$(MAKE) -f CMakeFiles/sampleMT.dir/build.make CMakeFiles/sampleMT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81,82,83,84 "Built target sampleMT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97,98,99,100 "Built target sampleMT"
 .PHONY : CMakeFiles/sampleMT.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,12 +198,12 @@ CMakeFiles/sampleMT.dir/clean:
 CMakeFiles/learnMT.dir/all:
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/depend
 	$(MAKE) -f CMakeFiles/learnMT.dir/build.make CMakeFiles/learnMT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48 "Built target learnMT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55 "Built target learnMT"
 .PHONY : CMakeFiles/learnMT.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/learnMT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learnMT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/learnMT.dir/rule
@@ -167,12 +225,12 @@ CMakeFiles/learnMT.dir/clean:
 CMakeFiles/genEvid.dir/all:
 	$(MAKE) -f CMakeFiles/genEvid.dir/build.make CMakeFiles/genEvid.dir/depend
 	$(MAKE) -f CMakeFiles/genEvid.dir/build.make CMakeFiles/genEvid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target genEvid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44 "Built target genEvid"
 .PHONY : CMakeFiles/genEvid.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/genEvid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/genEvid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/genEvid.dir/rule
@@ -194,12 +252,12 @@ CMakeFiles/genEvid.dir/clean:
 CMakeFiles/exactInf.dir/all:
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/depend
 	$(MAKE) -f CMakeFiles/exactInf.dir/build.make CMakeFiles/exactInf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target exactInf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33 "Built target exactInf"
 .PHONY : CMakeFiles/exactInf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exactInf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exactInf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/exactInf.dir/rule
@@ -221,12 +279,12 @@ CMakeFiles/exactInf.dir/clean:
 CMakeFiles/sampleInf.dir/all:
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/depend
 	$(MAKE) -f CMakeFiles/sampleInf.dir/build.make CMakeFiles/sampleInf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72 "Built target sampleInf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87,88 "Built target sampleInf"
 .PHONY : CMakeFiles/sampleInf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sampleInf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sampleInf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sampleInf.dir/rule
@@ -248,12 +306,12 @@ CMakeFiles/sampleInf.dir/clean:
 CMakeFiles/sampleBN.dir/all:
 	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/depend
 	$(MAKE) -f CMakeFiles/sampleBN.dir/build.make CMakeFiles/sampleBN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60 "Built target sampleBN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77 "Built target sampleBN"
 .PHONY : CMakeFiles/sampleBN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sampleBN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sampleBN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sampleBN.dir/rule

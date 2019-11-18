@@ -33,7 +33,7 @@ struct Function {
     Function(vector<Variable *> &variables_);
 
     Function(vector<Variable *> &variables_, vector<ldouble> &table_);
-
+    /*
     Function(const Function &f){
         for(auto var: f.variables){
             variables.push_back(new Variable(*var));
@@ -43,7 +43,7 @@ struct Function {
             table.push_back(t);
         }
     }
-
+    */
     ~Function() {
         variables.clear();
         table.clear();

@@ -80,11 +80,11 @@ struct Utils{
     template <class T>
     static void printVector(vector<T>& t, string print_me="")
     {
-        cout<<print_me<<endl;
+        //cout<<print_me<<endl;
         for(int i=0;i<t.size();i++){
             cout<<t[i]<<" ";
         }
-        cout<<endl;
+        //cout<<endl;
     }
     static void getXYStat(Variable* x, Variable* y, Data& data, vector<ldouble>& weights, vector<vector<ldouble> >& stats)
     {

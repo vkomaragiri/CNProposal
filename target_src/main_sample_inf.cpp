@@ -6,7 +6,7 @@
 #include <boost/program_options/options_description.hpp>
 #include <boost/program_options/parsers.hpp>
 #include <boost/program_options/variables_map.hpp>
-
+#include <cmath>
 
 #include <Utils.h>
 #include <Data.h>
@@ -19,7 +19,7 @@ using namespace std;
 
 boost::program_options::options_description desc(
         "MTProposal");
-string bnfilename, mtfilename, outfilename = "tmpfile.data", evidfilename;
+string bnfilename, mtfilename, outfilename_is, outfilename_lw, evidfilename, fname;
 
 
 std::istream &operator>>(std::istream &in, ORDERING_HEURISTIC &ordering_heu) {
@@ -45,10 +45,13 @@ int parseOptions(int argc, char *argv[]) {
                 ("help,?", "produce help message")
                 ("bnfile,b", boost::program_options::value<std::string>(&bnfilename), "BN model file")
                 ("mtfile,m", boost::program_options::value<std::string>(&mtfilename), "MT model file")
-                ("outfile,o", boost::program_options::value<std::string>(&outfilename), "Store Variable Marginals")
+                ("outfile_ImpS,is", boost::program_options::value<std::string>(&outfilename_is), "Store PE from Importance Sampling")
+                ("outfile_LW,lw", boost::program_options::value<std::string>(&outfilename_lw), "Store PE from Likelihood Weighting")
                 ("heuristic,h", boost::program_options::value<ORDERING_HEURISTIC>(&HyperParameters::ord_heu),
                  "Ordering Heuristic")
-                ("evidfile,e", boost::program_options::value<std::string>(&evidfilename), "Evidence file");
+                ("evidfile,e", boost::program_options::value<std::string>(&evidfilename), "Evidence file")
+                ("fname,f", boost::program_options::value<std::string>(&fname), "File Name");
+
 
         boost::program_options::variables_map vm;
         boost::program_options::store(
@@ -56,6 +59,19 @@ int parseOptions(int argc, char *argv[]) {
                 vm);
         boost::program_options::notify(vm);
 
+        if(!fname.empty()){
+            bnfilename = bnfilename+fname;
+            mtfilename = mtfilename+fname;
+            outfilename_lw = outfilename_lw+fname+".PR";
+            outfilename_is = outfilename_is+fname+".PR";
+            evidfilename = evidfilename+fname+".evid";
+        }
+        else{
+            cout << "No file name provided\n";
+            cout << desc << endl;
+            vm.clear();
+            exit(-1);
+        }
         if (vm.count("help")) {
             cout << desc << endl;
             vm.clear();
@@ -81,6 +97,8 @@ int main(int argc, char *argv[]) {
     if (parseOptions(argc, argv) == 0) {
         return 0;
     }
+    ofstream is_out(outfilename_is), lw_out(outfilename_lw);
+
     GM bn;
     bn.readUAI08(bnfilename);
 
@@ -106,18 +124,21 @@ int main(int argc, char *argv[]) {
     mts.generateSamples(100000, samples);
 
     long double imp_wt = 0;
-    int k = 1;
+    int k = 0, p = 2, z;
     for(auto s: samples)
     {
-        imp_wt += bn.getProbability(s)/mt.getProbability(s);
-        if(k%10000 == 0) {
-            cout << k << ": " << imp_wt/k << endl;
-        }
-        k++;
-    }
+        imp_wt += bn.getProbability(s)/mts.getProbability(s);
+        z = pow(10, p);
 
+        k++;
+        if(k%z == 0) {
+            is_out << k << " " << imp_wt/k << endl;
+            p++;
+        }
+
+    }
     //Likelihood Weighting
-    GM bn_copy = GM(bn);
+    //GM bn_copy = GM(bn);
     if (!evidfilename.empty()) {
         ifstream in(evidfilename);
 
@@ -137,13 +158,17 @@ int main(int argc, char *argv[]) {
 
     bns.generateSamples(100000, lwsamples);
     imp_wt = 0;
+    p = 2, k = 0;
     for(auto s: lwsamples)
     {
-        imp_wt += bn_copy.getProbability(s)/bn.getProbability(s);
-        if(k%10000 == 0)
-        {
-            cout << samples.size() << ": " << imp_wt/k << endl;
-        }
+        imp_wt += bn.getProbability(s)/bns.getProbability(s);
+
         k++;
+        int z = pow(10, p);
+        if(k%z == 0) {
+            lw_out << k << " " << imp_wt/k << endl;
+            p++;
+        }
+
     }
 }

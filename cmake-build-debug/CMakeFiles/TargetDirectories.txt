@@ -1,5 +1,7 @@
+/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/mtsCheck.dir
 /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/GMLib.dir
+/home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/cptBN.dir
 /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/sampleMT.dir
 /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/learnMT.dir
 /home/vasundhara/UTD/Research/Git/CNProposal/cmake-build-debug/CMakeFiles/genEvid.dir

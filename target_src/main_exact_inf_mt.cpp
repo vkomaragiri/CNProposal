@@ -19,7 +19,7 @@ using namespace std;
 
 boost::program_options::options_description desc(
         "MTProposal");
-string infilename, outfilename = "tmpfile.mar", evidfilename;
+string infilename, outfilename = "tmpfile.mar", evidfilename, fname;
 
 
 std::istream &operator>>(std::istream &in, ORDERING_HEURISTIC &ordering_heu) {
@@ -44,16 +44,23 @@ int parseOptions(int argc, char *argv[]) {
         desc.add_options()
                 ("help,?", "produce help message")
                 ("pmfile,i", boost::program_options::value<std::string>(&infilename), "Probabilistic model file")
-                ("outfile,o", boost::program_options::value<std::string>(&outfilename), "Store Variable Marginals")
+                ("outfile,o", boost::program_options::value<std::string>(&outfilename), "Store P(E)")
                 ("heuristic,h", boost::program_options::value<ORDERING_HEURISTIC>(&HyperParameters::ord_heu),
                  "Ordering Heuristic")
-                ("evidfile,e", boost::program_options::value<std::string>(&evidfilename), "Evidence file");
+                ("evidfile,e", boost::program_options::value<std::string>(&evidfilename), "Evidence file")
+                ("fname,f", boost::program_options::value<std::string>(&fname), "File Name");
 
         boost::program_options::variables_map vm;
         boost::program_options::store(
                 boost::program_options::parse_command_line(argc, argv, desc),
                 vm);
         boost::program_options::notify(vm);
+        if(! fname.empty()){
+            infilename = infilename+fname;
+            outfilename = outfilename+fname+".PR";
+            evidfilename = evidfilename+fname+".evid";
+        }
+
 
         if (vm.count("help")) {
             cout << desc << endl;
@@ -80,6 +87,7 @@ int main(int argc, char *argv[]) {
     if (parseOptions(argc, argv) == 0) {
         return 0;
     }
+    ofstream out(outfilename);
     MT mt;
     mt.read(infilename);
     if (!evidfilename.empty()) {
@@ -99,6 +107,6 @@ int main(int argc, char *argv[]) {
     MT_BTP mt_btp(mt);
     vector<vector<ldouble> > var_marginals;
     mt_btp.getVarMarginals(var_marginals);
-    Utils::printMarginals(var_marginals, outfilename);
-    cout << "P(E=e): " << mt_btp.getPE() << endl;
+    //Utils::printMarginals(var_marginals, outfilename);
+    out << mt_btp.getPE() << endl;
 }
