@@ -15,7 +15,7 @@
 ########################
 
 //The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=Boost_DIR-NOTFOUND
+Boost_DIR:PATH=/usr/lib/cmake/Boost-1.71.0
 
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/usr/include
@@ -230,6 +230,12 @@ CNProposal_BINARY_DIR:STATIC=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-
 //Value Computed by CMake
 CNProposal_SOURCE_DIR:STATIC=/home/vasundhara/UTD/Research/Git/CNProposal
 
+//The directory containing a CMake configuration file for NumPy3.
+NumPy3_DIR:PATH=NumPy3_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for NumPy.
+NumPy_DIR:PATH=NumPy_DIR-NOTFOUND
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
 
@@ -247,6 +253,21 @@ Project_BINARY_DIR:STATIC=/home/vasundhara/UTD/Research/Git/CNProposal/cmake-bui
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/vasundhara/UTD/Research/Git/CNProposal
+
+//The directory containing a CMake configuration file for boost.
+boost_DIR:PATH=boost_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=/usr/lib/cmake/boost_headers-1.71.0
+
+//The directory containing a CMake configuration file for boost_numpy3.
+boost_numpy3_DIR:PATH=boost_numpy3_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_numpy.
+boost_numpy_DIR:PATH=/usr/lib/cmake/boost_numpy-1.71.0
+
+//The directory containing a CMake configuration file for boost_python.
+boost_python_DIR:PATH=/usr/lib/cmake/boost_python-1.71.0
 
 
 ########################
@@ -409,11 +430,11 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/include][cfound components:  python ][v1.65.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components:  python ][v1.71.0()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.6.8()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.6.8(3)]
 //Details about finding PythonLibs
-FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpython3.6m.so][/usr/include/python3.6m][v3.6.8()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpython3.6m.so][/usr/include/python3.6m][v3.6.8(3)]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_INCLUDE_DIR
@@ -434,4 +455,10 @@ _Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_numpy_DIR
+boost_numpy_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_python_DIR
+boost_python_DIR-ADVANCED:INTERNAL=1
 

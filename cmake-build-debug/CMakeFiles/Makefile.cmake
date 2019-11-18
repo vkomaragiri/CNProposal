@@ -21,6 +21,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU-C.cmake"
   "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU-CXX.cmake"
   "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+  "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/FindBoost.cmake"
   "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/FindPackageMessage.cmake"
   "/home/vasundhara/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/FindPythonInterp.cmake"
@@ -36,6 +37,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "/usr/lib/cmake/Boost-1.71.0/BoostConfig.cmake"
+  "/usr/lib/cmake/Boost-1.71.0/BoostConfigVersion.cmake"
+  "/usr/lib/cmake/BoostDetectToolset-1.71.0.cmake"
+  "/usr/lib/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake"
+  "/usr/lib/cmake/boost_headers-1.71.0/boost_headers-config.cmake"
+  "/usr/lib/cmake/boost_numpy-1.71.0/boost_numpy-config-version.cmake"
+  "/usr/lib/cmake/boost_numpy-1.71.0/boost_numpy-config.cmake"
+  "/usr/lib/cmake/boost_numpy-1.71.0/libboost_numpy-variant-shared-py2.7.cmake"
+  "/usr/lib/cmake/boost_numpy-1.71.0/libboost_numpy-variant-shared-py3.6.cmake"
+  "/usr/lib/cmake/boost_python-1.71.0/boost_python-config-version.cmake"
+  "/usr/lib/cmake/boost_python-1.71.0/boost_python-config.cmake"
+  "/usr/lib/cmake/boost_python-1.71.0/libboost_python-variant-shared-py2.7.cmake"
+  "/usr/lib/cmake/boost_python-1.71.0/libboost_python-variant-shared-py3.6.cmake"
   )
 
 # The corresponding makefile is:

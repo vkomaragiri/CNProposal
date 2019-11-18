@@ -20,16 +20,16 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_ALL_NO_LIB"
+  "BOOST_PYTHON_DYN_LINK"
   "GMLib_EXPORTS"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/usr/local/Cellar/boost/1.71.0/include"
-  "/usr/local/Cellar/python@2/2.7.16_1/Frameworks/Python.framework/Versions/2.7/include/python2.7"
+  "/usr/include/python3.6m"
   "../GMLib"
-  "/usr/include/python2.7"
   )
 
 # Targets to which this target links.
