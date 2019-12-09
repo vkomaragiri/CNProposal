@@ -46,10 +46,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/cmake/boost_numpy-1.71.0/boost_numpy-config.cmake"
   "/usr/lib/cmake/boost_numpy-1.71.0/libboost_numpy-variant-shared-py2.7.cmake"
   "/usr/lib/cmake/boost_numpy-1.71.0/libboost_numpy-variant-shared-py3.6.cmake"
+  "/usr/lib/cmake/boost_numpy-1.71.0/libboost_numpy-variant-static-py2.7.cmake"
   "/usr/lib/cmake/boost_python-1.71.0/boost_python-config-version.cmake"
   "/usr/lib/cmake/boost_python-1.71.0/boost_python-config.cmake"
   "/usr/lib/cmake/boost_python-1.71.0/libboost_python-variant-shared-py2.7.cmake"
   "/usr/lib/cmake/boost_python-1.71.0/libboost_python-variant-shared-py3.6.cmake"
+  "/usr/lib/cmake/boost_python-1.71.0/libboost_python-variant-static-py2.7.cmake"
   )
 
 # The corresponding makefile is:
